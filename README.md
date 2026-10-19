@@ -519,7 +519,9 @@ These should be considered a priority when mapping a game.
     larger than `ball_count` are an indication that there isn't a game in
     progress.
 - **ball_count**: Number of balls per game.
-- **extra_balls**: Number of unplayed extra balls for the current player.
+- **extra_balls**: Either a `bool` value where `true` indicates that there is
+  at least one extra ball, or an integer value representing the number of
+  unplayed extra balls for the current player.
 
 ##### Extra Information
 These fields can provide useful information, but are considered a lower
