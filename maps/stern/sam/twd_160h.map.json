@@ -1,7 +1,7 @@
 {
   "_fileformat": 0.7,
   "_metadata": {
-    "version": 13,
+    "version": 14,
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "stern-sam",
     "roms": [
@@ -91,25 +91,25 @@
       {
         "label": "Player 1",
         "encoding": "int",
-        "length": 4,
+        "length": 8,
         "start": "0x02110A9C"
       },
       {
         "label": "Player 2",
         "encoding": "int",
-        "length": 4,
+        "length": 8,
         "start": "0x02110AA4"
       },
       {
         "label": "Player 3",
         "encoding": "int",
-        "length": 4,
+        "length": 8,
         "start": "0x02110AAC"
       },
       {
         "label": "Player 4",
         "encoding": "int",
-        "length": 4,
+        "length": 8,
         "start": "0x02110AB4"
       }
     ]

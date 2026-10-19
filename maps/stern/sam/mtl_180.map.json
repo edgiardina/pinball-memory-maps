@@ -1,7 +1,7 @@
 {
   "_fileformat": 0.7,
   "_metadata": {
-    "version": 7,
+    "version": 8,
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "copyright": [
       "Copyright (C) 2026 by Wes Smith <evilwraith@gmail.com>"
@@ -167,25 +167,25 @@
       {
         "label": "Player 1",
         "encoding": "int",
-        "length": 4,
+        "length": 8,
         "start": "0x02110A24"
       },
       {
         "label": "Player 2",
         "encoding": "int",
-        "length": 4,
+        "length": 8,
         "start": "0x02110A2C"
       },
       {
         "label": "Player 3",
         "encoding": "int",
-        "length": 4,
+        "length": 8,
         "start": "0x02110A34"
       },
       {
         "label": "Player 4",
         "encoding": "int",
-        "length": 4,
+        "length": 8,
         "start": "0x02110A3C"
       }
     ]
