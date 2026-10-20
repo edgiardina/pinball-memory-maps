@@ -643,6 +643,9 @@
 * [Indianapolis 500 (1.1 Belgian)][81356] _i500_11b_
 * [Indianapolis 500 (1.1R)][81356] _i500_11r_
 * [Iron Maiden][ee0e9] _ironmaid_
+* [Iron Man (V1.86)][30a02] _im_186_
+* [Iron Man Vault Edition (V1.85)][933f8] _im_185ve_
+* [Iron Man Vault Edition (V1.86)][7e108] _im_186ve_
 * [Jack*Bot (0.4A Prototype)][8f9ea] _jb_04a_
 * [Jack*Bot (1.01B Belgian/Canadian LED Ghost Fix)][dfcec] _jb_101b_
 * [Jack*Bot (1.01R LED Ghost Fix)][dfcec] _jb_101r_
@@ -824,6 +827,7 @@
 * [Medusa (Free Play)][07ad3] _medusaa_
 * [Memory Lane][a1bbc] _memlane_
 * [Memory Lane (Free Play)][a022a] _memlanfp_
+* [Metallica (V1.80.0)][daba7] _mtl_180_
 * [Metallica Limited Edition (V1.7)][cf91d] _mtl_170h_
 * [Metallica Limited Edition (V1.80.0)][8666c] _mtl_180h_
 * [Meteor][aacb5] _meteor_
@@ -1643,6 +1647,7 @@
 [2c1b6]: maps/gottlieb/system80b/tagteam.map.json
 [2cac3]: maps/williams/wpc/gi_l4.map.json
 [2fa8b]: maps/bally/as-2518-35/system-rom-52-freeplay.map.json
+[30a02]: maps/stern/sam/im_186.map.json
 [31f53]: maps/bally/as-2518-35/centaur.map.json
 [32d13]: maps/dataeast/version3/tomy_400.map.json
 [32fbf]: maps/stern/whitestar/monopoly.map.json
@@ -1772,6 +1777,7 @@
 [7cd56]: maps/williams/system11/gmine_l2.map.json
 [7d59b]: maps/dataeast/version3/hook_408.map.json
 [7dda9]: maps/stern/m200/catacomb.map.json
+[7e108]: maps/stern/sam/im_186ve.map.json
 [7e519]: maps/dataeast/version2/robo_a30.map.json
 [7e949]: maps/williams/wpc/fh_l3.map.json
 [7e952]: maps/stern/whitestar/nascar.map.json
@@ -1805,6 +1811,7 @@
 [913b3]: maps/bally/as-2518-35/system-rom-53.map.json
 [923be]: maps/dataeast/version3b/frankst.map.json
 [92c78]: maps/bally/as-2518-35/frontier.map.json
+[933f8]: maps/stern/sam/im_185ve.map.json
 [935f1]: maps/williams/wpc/cftbl_p3.map.json
 [93def]: maps/williams/wpc/ss_01.map.json
 [94668]: maps/stern/whitestar/term3_2.map.json
@@ -1927,6 +1934,7 @@
 [d93a7]: maps/stern/sam/avr_200.map.json
 [d9993]: maps/dataeast/version3/lw3_200.map.json
 [d9fa2]: maps/williams/wpc/mb_10.map.json
+[daba7]: maps/stern/sam/mtl_180.map.json
 [dbe48]: maps/gottlieb/system80/generic-1prom.map.json
 [dc55e]: maps/dataeast/version3/rab_320.map.json
 [dc5e8]: maps/williams/wpc/ngg_13.map.json
