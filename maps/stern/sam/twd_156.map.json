@@ -43,9 +43,9 @@
     "the factory defaults read JDB/75,000,000 and LFS/55,000,000, the set the rest of the SAM family",
     "ships."
   ],
-  "_fileformat": 0.8,
+  "_fileformat": 0.9,
   "_metadata": {
-    "version": 10,
+    "version": 11,
     "copyright": [
       "Copyright (C) 2026 by Tom Collins <tom@scorbit.io>"
     ],
@@ -54,7 +54,35 @@
     "roms": [
       "twd_156",
       "twd_156c"
-    ]
+    ],
+    "validation": {
+      "checksum": [
+        {
+          "label": "Free Play adjustment",
+          "start": "0x2102110",
+          "end": "0x2102114",
+          "complement": true
+        },
+        {
+          "label": "Balls Per Game adjustment",
+          "start": "0x21020F8",
+          "end": "0x21020FC",
+          "complement": true
+        },
+        {
+          "label": "Maximum Credits adjustment",
+          "start": "0x2102108",
+          "end": "0x210210C",
+          "complement": true
+        },
+        {
+          "label": "Master Volume",
+          "start": "0x2110250",
+          "end": "0x2110251",
+          "complement": true
+        }
+      ]
+    }
   },
   "checksum8": [
     {
