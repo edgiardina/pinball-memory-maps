@@ -6,7 +6,7 @@
   ],
   "_fileformat": 0.8,
   "_metadata": {
-    "version": 5,
+    "version": 6,
     "copyright": [
       "Copyright (C) 2016 by Tom Collins <tom@tomlogic.com>",
       "Copyright (C) 2025 by Tom Collins <tom@scorbit.io>"
@@ -1125,7 +1125,7 @@
         "length": 2,
         "min": 0,
         "max": 10,
-        "default": 4,
+        "default": 0,
         "special_values": {
           "0": "OFF"
         }
@@ -1248,7 +1248,7 @@
       },
       "16": {
         "label": "Match Award",
-        "start": 7095,
+        "start": 7094,
         "encoding": "enum",
         "values": [
           "Credit",
@@ -1304,8 +1304,9 @@
         "encoding": "enum",
         "values": [
           "English",
+          "German",
           "French",
-          "German"
+          "Spanish"
         ],
         "default": 0
       },
