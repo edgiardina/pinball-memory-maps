@@ -1304,8 +1304,8 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "Eset",
-          ""
+          "Auto %",
+          "Fixed"
         ]
       },
       "06": {
@@ -1405,10 +1405,10 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "M. Test.",
-          "All Lamps",
-          "Lip Coil Test",
-          "Edit"
+          "Credit",
+          "Ticket",
+          "Extra Ball",
+          "Audit"
         ]
       },
       "15": {
@@ -1417,10 +1417,10 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "M. Test.",
-          "All Lamps",
-          "Lip Coil Test",
-          "Ll"
+          "Credit",
+          "Ticket",
+          "Extra Ball",
+          "Points"
         ]
       },
       "16": {
@@ -1429,8 +1429,8 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "M. Test.",
-          "All Lamps"
+          "Credit",
+          "Ticket"
         ]
       },
       "17": {
@@ -1439,12 +1439,12 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "Lue",
+          "No",
           "Yes"
         ]
       },
       "18": {
-        "label": "Max. Tick./player",
+        "label": "Max. Tick./Player",
         "start": 7079,
         "encoding": "int",
         "length": 2,
@@ -1471,8 +1471,8 @@
         "encoding": "enum",
         "default": 1,
         "values": [
-          "Fl.",
-          "En. Illum. Test."
+          "Off",
+          "ON"
         ]
       },
       "21": {
@@ -1482,8 +1482,8 @@
         "default": 0,
         "values": [
           "English",
-          "S",
-          ""
+          "Deutsch",
+          "Francais"
         ]
       },
       "22": {
@@ -1492,8 +1492,8 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "Fl.",
-          "M. Test."
+          "AM / PM",
+          "24 Hour"
         ]
       },
       "23": {
@@ -1512,7 +1512,7 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "Lue",
+          "No",
           "Yes"
         ]
       },
@@ -1522,7 +1522,7 @@
         "encoding": "enum",
         "default": 1,
         "values": [
-          "Lue",
+          "No",
           "Yes"
         ]
       },
@@ -1532,7 +1532,7 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "Lue",
+          "No",
           "Yes"
         ]
       },
@@ -1542,7 +1542,7 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "Lue",
+          "No",
           "Yes"
         ]
       },
@@ -1552,7 +1552,7 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "Lue",
+          "No",
           "Yes"
         ]
       },
@@ -1584,7 +1584,7 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "Lue",
+          "No",
           "Yes"
         ]
       },
@@ -1594,7 +1594,7 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "Lue",
+          "No",
           "Yes"
         ]
       },
@@ -1604,9 +1604,9 @@
         "encoding": "enum",
         "default": 1,
         "values": [
-          "1b%r1a",
-          "",
-          "+ Flash"
+          "Never",
+          "Slow",
+          "Instantly"
         ]
       }
     }

@@ -1375,7 +1375,7 @@
         ]
       },
       "18": {
-        "label": "Max. Tick./player",
+        "label": "Max. Tick./Player",
         "start": 7157,
         "encoding": "int",
         "length": 2,

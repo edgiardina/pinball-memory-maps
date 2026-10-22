@@ -1120,6 +1120,21 @@
           "0": "OFF"
         }
       },
+      "13": {
+        "label": "Replay Boost",
+        "start": 7087,
+        "encoding": "bcd",
+        "length": 2,
+        "min": 0,
+        "max": 3000,
+        "default": 100,
+        "multiple_of": 100,
+        "scale": 10000,
+        "special_values": {
+          "0": "OFF",
+          "100": "AUTO"
+        }
+      },
       "14": {
         "label": "Replay Award",
         "start": 7090,
@@ -1165,7 +1180,7 @@
         ]
       },
       "18": {
-        "label": "Max. Tick./player",
+        "label": "Max. Tick./Player",
         "start": 7097,
         "encoding": "int",
         "length": 2,
