@@ -5,11 +5,16 @@
     "https://www.ipdb.org/machine.cgi?id=175",
     "Williams System 11B",
     "2025-03 v0.2: Tom Collins added audits",
-    "2025-09 v0.4: Tom Collins added to game_state"
+    "2025-09 v0.4: Tom Collins added to game_state",
+    "Adjustments 0x780-0x7DD (Free Play at 0x796) are protected by an 8-bit complement sum at 0x7E5,",
+    "the scheme measured live on swrds_l2 (see that map). Verified against this game's saved NVRAM",
+    "from both cabinets, one image state each: the byte at 0x7E5 equals 0xFF minus the sum of the",
+    "block exactly. An external write to the block that leaves 0x7E5 stale is answered at the next",
+    "boot with a full factory reset of NVRAM."
   ],
-  "_fileformat": 0.8,
+  "_fileformat": 0.9,
   "_metadata": {
-    "version": 5,
+    "version": 7,
     "copyright": [
       "Copyright (C) 2024 by Francis De Brabandere <francisdb@gmail.com>",
       "Copyright (C) 2025 by Tom Collins <tom@scorbit.io>"
@@ -18,7 +23,34 @@
     "platform": "williams-system11-48K",
     "roms": [
       "bnzai_l3"
-    ]
+    ],
+    "validation": {
+      "checksum": [
+        {
+          "label": "Audits {#}",
+          "repeat": {
+            "count": 40,
+            "step": 4
+          },
+          "start": "0x0660",
+          "length": 4,
+          "complement": true
+        },
+        {
+          "label": "Credits",
+          "start": "0x0702",
+          "complement": true,
+          "checksum": "0x0749"
+        },
+        {
+          "label": "Adjustments",
+          "start": "0x0780",
+          "end": "0x07DD",
+          "complement": true,
+          "checksum": "0x07E5"
+        }
+      ]
+    }
   },
   "game_state": {
     "credits": {
@@ -184,6 +216,12 @@
       "start": 1794,
       "checksum": 1865,
       "label": "Credits"
+    },
+    {
+      "start": 1920,
+      "end": 2013,
+      "checksum": 2021,
+      "label": "Adjustments"
     }
   ],
   "audits": {
