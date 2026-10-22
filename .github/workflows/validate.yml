@@ -37,3 +37,5 @@ jobs:
           check-jsonschema --schemafile schema/platform.schema.json platforms/*.json
           check-jsonschema --schemafile schema/index.schema.json index.json
           check-jsonschema --schemafile schema/romnames.schema.json romnames.json
+      - name: Check WPC adjustment addresses
+        run: python3 tools/check-wpc-adjustments.py
