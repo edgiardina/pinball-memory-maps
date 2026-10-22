@@ -12,7 +12,7 @@
   ],
   "_fileformat": 0.9,
   "_metadata": {
-    "version": 10,
+    "version": 11,
     "copyright": [
       "Copyright (C) 2017 by Mike Metzger <mike@flexiblecreations.com>",
       "Copyright (C) 2025 by Tom Collins <tom@scorbit.io>"
@@ -534,13 +534,13 @@
       },
       "15": {
         "label": "Special Award",
-        "start": 6971,
+        "start": 6972,
         "encoding": "enum",
         "values": [
           "Credit",
           "Ticket",
           "Ball",
-          "Audit"
+          "Points"
         ],
         "default": 0
       },
@@ -603,6 +603,7 @@
         "values": [
           "English",
           "Deutsch",
+          "Francais",
           "Espanol"
         ],
         "default": 0
