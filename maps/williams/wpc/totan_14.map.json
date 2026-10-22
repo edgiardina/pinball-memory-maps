@@ -1133,8 +1133,8 @@
         "start": 7171,
         "encoding": "bcd",
         "length": 2,
-        "min": 100,
-        "max": 1500,
+        "min": 0,
+        "max": 2500,
         "default": 800,
         "scale": 10000
       },

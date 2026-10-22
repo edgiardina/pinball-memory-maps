@@ -1412,8 +1412,8 @@
         "start": 7057,
         "encoding": "bcd",
         "length": 2,
-        "min": 100,
-        "max": 1500,
+        "min": 5,
+        "max": 505,
         "default": 200,
         "scale": 1000000
       },

@@ -981,6 +981,8 @@
         "start": 6955,
         "encoding": "bcd",
         "length": 2,
+        "min": 15,
+        "max": 250,
         "default": 30,
         "scale": 1000000
       },
@@ -999,7 +1001,7 @@
         "encoding": "bcd",
         "length": 2,
         "min": 0,
-        "max": 2500,
+        "max": 250,
         "default": 30,
         "scale": 1000000,
         "special_values": {
@@ -1012,7 +1014,7 @@
         "encoding": "bcd",
         "length": 2,
         "min": 0,
-        "max": 2500,
+        "max": 250,
         "default": 0,
         "scale": 1000000,
         "special_values": {
@@ -1025,7 +1027,7 @@
         "encoding": "bcd",
         "length": 2,
         "min": 0,
-        "max": 2500,
+        "max": 250,
         "default": 0,
         "scale": 1000000,
         "special_values": {
@@ -1038,7 +1040,7 @@
         "encoding": "bcd",
         "length": 2,
         "min": 0,
-        "max": 2500,
+        "max": 250,
         "default": 0,
         "scale": 1000000,
         "special_values": {
@@ -1051,7 +1053,7 @@
         "encoding": "bcd",
         "length": 2,
         "min": 0,
-        "max": 500,
+        "max": 50,
         "default": 5,
         "scale": 1000000
       },
