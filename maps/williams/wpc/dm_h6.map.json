@@ -5,7 +5,7 @@
   ],
   "_fileformat": 0.8,
   "_metadata": {
-    "version": 5,
+    "version": 6,
     "copyright": [
       "Copyright (C) 2015 by Tom Collins <tom@tomlogic.com>",
       "Copyright (C) 2025 by Tom Collins <tom@scorbit.io>"
@@ -380,7 +380,7 @@
       },
       "15": {
         "label": "Special Award",
-        "start": 6971,
+        "start": 6972,
         "encoding": "enum",
         "values": [
           "Credit",
