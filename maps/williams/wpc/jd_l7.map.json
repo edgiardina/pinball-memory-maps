@@ -7,7 +7,7 @@
   ],
   "_fileformat": 0.8,
   "_metadata": {
-    "version": 6,
+    "version": 7,
     "copyright": "Copyright (C) 2025 by Tom Collins <tom@tomlogic.com>",
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "williams-wpc-12K",
@@ -804,6 +804,221 @@
         "start": 7235,
         "encoding": "wpc_rtc",
         "length": 7
+      }
+    }
+  },
+  "adjustments": {
+    "A.2 Feature Adjustments": {
+      "01": {
+        "_notes": [
+          "The display scale was not found: the screen showed 05, 06, 07, 09.",
+          "Flagged: The walk did not reach the maximum."
+        ],
+        "label": "Ex. Ball Count",
+        "start": 7101,
+        "length": 2,
+        "encoding": "int",
+        "min": 5,
+        "max": 30,
+        "default": 6
+      },
+      "02": {
+        "label": "Attract Sounds",
+        "start": 7104,
+        "encoding": "enum",
+        "default": 0,
+        "values": [
+          "Off",
+          "ON"
+        ]
+      },
+      "03": {
+        "label": "Family Mode",
+        "start": 7106,
+        "encoding": "enum",
+        "default": 0,
+        "values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "04": {
+        "label": "Shots For Mode",
+        "start": 7107,
+        "length": 2,
+        "encoding": "int",
+        "min": 1,
+        "max": 3,
+        "default": 1
+      },
+      "05": {
+        "_notes": [
+          "The walk did not tie the value texts to stored numbers. The factory screen shows \"5 sec.\".",
+          "Flagged: The walk stopped stepping before the values wrapped."
+        ],
+        "label": "Ballsave Time",
+        "start": 7109,
+        "length": 2,
+        "encoding": "int",
+        "min": 0,
+        "max": 10,
+        "default": 5
+      },
+      "06": {
+        "label": "Manhunt Timer",
+        "start": 7111,
+        "length": 2,
+        "encoding": "int",
+        "min": 15,
+        "max": 35,
+        "default": 30,
+        "suffix": " sec."
+      },
+      "07": {
+        "label": "Sniper Timer",
+        "start": 7113,
+        "length": 2,
+        "encoding": "int",
+        "min": 15,
+        "max": 35,
+        "default": 30,
+        "suffix": " sec."
+      },
+      "08": {
+        "label": "Stakeout Timer",
+        "start": 7115,
+        "length": 2,
+        "encoding": "int",
+        "min": 15,
+        "max": 35,
+        "default": 30,
+        "suffix": " sec."
+      },
+      "09": {
+        "label": "Pursuit Timer",
+        "start": 7117,
+        "length": 2,
+        "encoding": "int",
+        "min": 15,
+        "max": 35,
+        "default": 30,
+        "suffix": " sec."
+      },
+      "10": {
+        "label": "Safecrackr Timer",
+        "start": 7119,
+        "length": 2,
+        "encoding": "int",
+        "min": 15,
+        "max": 35,
+        "default": 30,
+        "suffix": " sec."
+      },
+      "11": {
+        "label": "Bad Imper. Timer",
+        "start": 7121,
+        "length": 2,
+        "encoding": "int",
+        "min": 15,
+        "max": 35,
+        "default": 30,
+        "suffix": " sec."
+      },
+      "12": {
+        "label": "Meltdown Timer",
+        "start": 7123,
+        "length": 2,
+        "encoding": "int",
+        "min": 15,
+        "max": 35,
+        "default": 30,
+        "suffix": " sec."
+      },
+      "13": {
+        "label": "Battle Tnk Timer",
+        "start": 7125,
+        "length": 2,
+        "encoding": "int",
+        "min": 15,
+        "max": 35,
+        "default": 30,
+        "suffix": " sec."
+      },
+      "14": {
+        "_notes": [
+          "The ROM table range 500-1500 does not hold the factory default 350: the range is left out.",
+          "Flagged: The value probe started from an unknown value: only the default screen was read."
+        ],
+        "label": "Super Grnd Champ.",
+        "start": 7127,
+        "length": 2,
+        "encoding": "bcd",
+        "default": 350,
+        "scale": 1000000
+      },
+      "15": {
+        "_notes": [
+          "The display scale was not found: the screen showed 315,000,000, 320,000,000, 325,000,000.",
+          "Flagged: The walk could not follow the value down to the minimum. The walk could not follow the value up to the maximum."
+        ],
+        "label": "Super HSTD 1",
+        "start": 7129,
+        "length": 2,
+        "encoding": "int",
+        "min": 592,
+        "max": 2457,
+        "default": 800
+      },
+      "16": {
+        "_notes": [
+          "The display scale was not found: the screen showed 305,000,000, 310,000,000, 315,000,000.",
+          "Flagged: The walk could not follow the value down to the minimum. The walk could not follow the value up to the maximum."
+        ],
+        "label": "Super HSTD 2",
+        "start": 7131,
+        "length": 2,
+        "encoding": "int",
+        "min": 336,
+        "max": 2457,
+        "default": 784
+      },
+      "17": {
+        "_notes": [
+          "The display scale was not found: the screen showed 295,000,000, 300,000,000, 305,000,000.",
+          "Flagged: The walk could not follow the value down to the minimum. The walk could not follow the value up to the maximum."
+        ],
+        "label": "Super HSTD 3",
+        "start": 7133,
+        "length": 2,
+        "encoding": "int",
+        "min": 320,
+        "max": 2457,
+        "default": 768
+      },
+      "18": {
+        "_notes": [
+          "The display scale was not found: the screen showed 285,000,000, 290,000,000, 295,000,000.",
+          "Flagged: The walk could not follow the value down to the minimum. The walk could not follow the value up to the maximum."
+        ],
+        "label": "Super HSTD 4",
+        "start": 7135,
+        "length": 2,
+        "encoding": "int",
+        "min": 304,
+        "max": 2457,
+        "default": 656
+      },
+      "19": {
+        "_notes": [
+          "The ROM table range 288-2457 does not hold the factory default 1: the range is left out.",
+          "Flagged: The value probe started from an unknown value: only the default screen was read."
+        ],
+        "label": "Buy Extra Ball",
+        "start": 7137,
+        "length": 2,
+        "encoding": "int",
+        "default": 1,
+        "suffix": " CREDIT"
       }
     }
   },

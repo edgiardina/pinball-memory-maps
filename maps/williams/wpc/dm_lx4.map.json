@@ -6,7 +6,7 @@
   ],
   "_fileformat": 0.8,
   "_metadata": {
-    "version": 8,
+    "version": 9,
     "copyright": "Copyright (C) 2015, 2025 by Tom Collins <tom@tomlogic.com>",
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "williams-wpc-12K",
@@ -791,6 +791,29 @@
           "NO",
           "YES"
         ],
+        "default": 1
+      },
+      "22": {
+        "_notes": [
+          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+          "BCD encoding is a guess from the ROM range digits."
+        ],
+        "label": "Backup Demo Champ",
+        "start": 7143,
+        "length": 2,
+        "encoding": "bcd",
+        "min": 300,
+        "max": 1000,
+        "default": 500
+      },
+      "23": {
+        "_notes": [
+          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+          "Value names left out: this ROM's choice lists do not match its screens."
+        ],
+        "label": "Secret Features",
+        "start": 7146,
+        "encoding": "enum",
         "default": 1
       },
       "24": {

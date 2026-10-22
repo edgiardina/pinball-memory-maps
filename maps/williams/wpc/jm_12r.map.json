@@ -5,7 +5,7 @@
   ],
   "_fileformat": 0.8,
   "_metadata": {
-    "version": 5,
+    "version": 6,
     "copyright": [
       "Copyright (C) 2015 by Tom Collins <tom@tomlogic.com>",
       "Copyright (C) 2025 by Tom Collins <tom@scorbit.io>"
@@ -920,6 +920,42 @@
           "YES"
         ],
         "default": 0
+      },
+      "19": {
+        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "label": "Cyberpunk Credit",
+        "start": 7145,
+        "length": 2,
+        "encoding": "int",
+        "min": 0,
+        "max": 3,
+        "default": 0
+      },
+      "20": {
+        "_notes": [
+          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+          "BCD encoding is a guess from the ROM range digits."
+        ],
+        "label": "Def. Cyberpunk",
+        "start": 7147,
+        "length": 2,
+        "encoding": "bcd",
+        "min": 1,
+        "max": 140,
+        "default": 140
+      },
+      "21": {
+        "_notes": [
+          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+          "BCD encoding is a guess from the ROM range digits."
+        ],
+        "label": "Backup Null Champ",
+        "start": 7149,
+        "length": 2,
+        "encoding": "bcd",
+        "min": 100,
+        "max": 100,
+        "default": 100
       }
     }
   },

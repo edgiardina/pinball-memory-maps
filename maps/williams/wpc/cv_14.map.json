@@ -6,7 +6,7 @@
   ],
   "_fileformat": 0.8,
   "_metadata": {
-    "version": 6,
+    "version": 7,
     "copyright": "Copyright (C) 2025 by Tom Collins <tom@tomlogic.com>",
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "williams-wpc-12K",
@@ -1057,6 +1057,381 @@
         "start": 7525,
         "encoding": "wpc_rtc",
         "length": 7
+      }
+    }
+  },
+  "adjustments": {
+    "A.2 Feature Adjustments": {
+      "01": {
+        "label": "Ball Saves",
+        "start": 7331,
+        "length": 2,
+        "encoding": "int",
+        "min": 0,
+        "max": 5,
+        "default": 1,
+        "special_values": {
+          "0": "Off"
+        }
+      },
+      "02": {
+        "label": "Timed Plunger",
+        "start": 7333,
+        "length": 2,
+        "encoding": "int",
+        "min": 29,
+        "max": 90,
+        "default": 29,
+        "special_values": {
+          "29": "Off"
+        }
+      },
+      "03": {
+        "label": "Ball Save Time",
+        "start": 7335,
+        "length": 2,
+        "encoding": "int",
+        "min": 2,
+        "max": 10,
+        "default": 4
+      },
+      "04": {
+        "label": "Mball. Ball Saver",
+        "start": 7337,
+        "length": 2,
+        "encoding": "int",
+        "min": 1,
+        "max": 15,
+        "default": 5
+      },
+      "05": {
+        "label": "R.Mstr. Ball Save",
+        "start": 7339,
+        "length": 2,
+        "encoding": "int",
+        "min": 1,
+        "max": 15,
+        "default": 5
+      },
+      "06": {
+        "label": "Arc Mball. Save",
+        "start": 7341,
+        "length": 2,
+        "encoding": "int",
+        "min": 1,
+        "max": 15,
+        "default": 5
+      },
+      "07": {
+        "label": "Jugle. Mball. Save",
+        "start": 7343,
+        "length": 2,
+        "encoding": "int",
+        "min": 1,
+        "max": 15,
+        "default": 5
+      },
+      "08": {
+        "label": "Neon M.B Saver",
+        "start": 7345,
+        "length": 2,
+        "encoding": "int",
+        "min": 1,
+        "max": 20,
+        "default": 8
+      },
+      "09": {
+        "label": "Rmaster. Ex.Ball",
+        "start": 7347,
+        "length": 2,
+        "encoding": "int",
+        "min": 0,
+        "max": 10,
+        "default": 3,
+        "special_values": {
+          "0": "Off"
+        }
+      },
+      "10": {
+        "label": "\"Boom\" For E.B",
+        "start": 7349,
+        "length": 2,
+        "encoding": "int",
+        "min": 5,
+        "max": 25,
+        "default": 15
+      },
+      "11": {
+        "_notes": [
+          "The display scale was not found: the screen showed MEDIUM.",
+          "The ROM table range 9-18 does not hold the factory default 2: the range is left out.",
+          "Flagged: The value probe started from an unknown value: only the default screen was read."
+        ],
+        "label": "Ramp Difficulty",
+        "start": 7351,
+        "length": 2,
+        "encoding": "int",
+        "default": 2,
+        "special_values": {
+          "2": "Medium"
+        }
+      },
+      "12": {
+        "label": "\"Ring\" Memory",
+        "start": 7354,
+        "encoding": "enum",
+        "default": 0,
+        "values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "13": {
+        "label": "Side Show Lit",
+        "start": 7356,
+        "encoding": "enum",
+        "default": 1,
+        "values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "14": {
+        "_notes": [
+          "Values seen in this order, not tied to stored numbers: 10, 11, 12, 13, 09, 08, 07.",
+          "Flagged: The values were seen in order but could not be tied to stored numbers."
+        ],
+        "label": "Super Jets Time",
+        "start": 7358,
+        "encoding": "enum",
+        "default": 10
+      },
+      "15": {
+        "_notes": [
+          "Values seen in this order, not tied to stored numbers: 20, 21, 22, 23, 19, 18, 17.",
+          "Flagged: The values were seen in order but could not be tied to stored numbers."
+        ],
+        "label": "Popcorn Time",
+        "start": 7360,
+        "encoding": "enum",
+        "default": 20
+      },
+      "16": {
+        "_notes": [
+          "The ROM table range 5-15 does not hold the factory default 20: the range is left out.",
+          "Flagged: The value probe started from an unknown value: only the default screen was read."
+        ],
+        "label": "Roonie Timer",
+        "start": 7361,
+        "length": 2,
+        "encoding": "int",
+        "default": 20
+      },
+      "17": {
+        "label": "Hat-Trick Timer",
+        "start": 7363,
+        "length": 2,
+        "encoding": "int",
+        "min": 10,
+        "max": 30,
+        "default": 20
+      },
+      "18": {
+        "_notes": [
+          "The display scale was not found: the screen showed 08, 09, 10, 11.",
+          "Flagged: The walk did not reach the maximum."
+        ],
+        "label": "Cannon Mode Time",
+        "start": 7365,
+        "length": 2,
+        "encoding": "int",
+        "min": 9,
+        "max": 30,
+        "default": 10
+      },
+      "19": {
+        "_notes": [
+          "The ROM table range 4-15 does not hold the factory default 1: the range is left out.",
+          "Flagged: The value probe started from an unknown value: only the default screen was read."
+        ],
+        "label": "M/B Stack Locks",
+        "start": 7367,
+        "length": 2,
+        "encoding": "int",
+        "default": 1
+      },
+      "20": {
+        "_notes": [
+          "The display scale was not found: the screen showed INSTANT.",
+          "The ROM table range 10-30 does not hold the factory default 2: the range is left out.",
+          "Flagged: The value probe started from an unknown value: only the default screen was read."
+        ],
+        "label": "Flprs. Abort Anim.",
+        "start": 7369,
+        "length": 2,
+        "encoding": "int",
+        "default": 2,
+        "special_values": {
+          "2": "Instant"
+        }
+      },
+      "21": {
+        "_notes": [
+          "The display scale was not found: the screen showed YES.",
+          "The ROM table range 9-30 does not hold the factory default 1: the range is left out.",
+          "Flagged: The value probe started from an unknown value: only the default screen was read."
+        ],
+        "label": "Plyr Tournament",
+        "start": 7371,
+        "length": 2,
+        "encoding": "int",
+        "default": 1,
+        "special_values": {
+          "1": "Yes"
+        }
+      },
+      "22": {
+        "label": "Magnet Ball Save",
+        "start": 7373,
+        "length": 2,
+        "encoding": "int",
+        "min": 0,
+        "max": 3,
+        "default": 1,
+        "special_values": {
+          "1": "Yes",
+          "2": "No"
+        }
+      },
+      "23": {
+        "_notes": [
+          "Values seen in this order, not tied to stored numbers: OFF, 5 MINUTES, 10 MINUTES, 15 MINUTES, 120 MINS., 115 MINS., 110 MINS..",
+          "Flagged: The values were seen in order but could not be tied to stored numbers."
+        ],
+        "label": "A.Mode Music",
+        "start": 7376,
+        "encoding": "enum",
+        "default": 0
+      },
+      "24": {
+        "_notes": [
+          "Values seen in this order, not tied to stored numbers: OFF, 5 MINUTES, 10 MINUTES, 15 MINUTES, 60 MINUTES, 55 MINUTES, 50 MINUTES.",
+          "Flagged: The values were seen in order but could not be tied to stored numbers."
+        ],
+        "label": "A.Mode Sounds",
+        "start": 7378,
+        "encoding": "enum",
+        "default": 0
+      },
+      "25": {
+        "label": "A.Mode Flpr. Snds.",
+        "start": 7380,
+        "encoding": "enum",
+        "default": 1,
+        "values": [
+          "No",
+          "Yes"
+        ]
+      },
+      "26": {
+        "label": "Coin Start",
+        "start": 7381,
+        "length": 2,
+        "encoding": "int",
+        "min": 0,
+        "max": 1,
+        "default": 0,
+        "special_values": {
+          "0": "No",
+          "1": "Yes"
+        }
+      },
+      "27": {
+        "_notes": [
+          "Values seen in this order, not tied to stored numbers: 60 MINS., 90 MINS., 120 MINS., 150 MINS., 30 MINS., 180 MINS., 150 MINS..",
+          "Flagged: The values were seen in order but could not be tied to stored numbers."
+        ],
+        "label": "Neon Off Time",
+        "start": 7384,
+        "encoding": "enum",
+        "default": 60
+      },
+      "28": {
+        "_notes": [
+          "Values seen in this order, not tied to stored numbers: 5 MINS., 6 MINS., 7 MINS., 8 MINS., 60 MINS., 59 MINS., 58 MINS..",
+          "Flagged: The values were seen in order but could not be tied to stored numbers."
+        ],
+        "label": "Neon ON Time",
+        "start": 7386,
+        "encoding": "enum",
+        "default": 5
+      },
+      "29": {
+        "label": "Backbox",
+        "start": 7388,
+        "encoding": "enum",
+        "default": 1,
+        "values": [
+          "Off",
+          "ON"
+        ]
+      },
+      "30": {
+        "label": "Ringmaster",
+        "start": 7390,
+        "encoding": "enum",
+        "default": 1,
+        "values": [
+          "Off",
+          "ON"
+        ]
+      },
+      "31": {
+        "label": "Diverter",
+        "start": 7392,
+        "encoding": "enum",
+        "default": 1,
+        "values": [
+          "Off",
+          "ON"
+        ]
+      },
+      "32": {
+        "_notes": [
+          "The ROM table range 80-200 does not hold the factory default 31: the range is left out.",
+          "Flagged: The value probe started from an unknown value: only the default screen was read."
+        ],
+        "label": "\"Knocker\" Volume",
+        "start": 7393,
+        "length": 2,
+        "encoding": "int",
+        "default": 31
+      },
+      "33": {
+        "_notes": [
+          "The display scale was not found: the screen showed NO.",
+          "The ROM table range 1-32 does not hold the factory default 0: the range is left out.",
+          "Flagged: The value probe started from an unknown value: only the default screen was read."
+        ],
+        "label": "Low Rm. Batle. Scr.",
+        "start": 7395,
+        "length": 2,
+        "encoding": "int",
+        "default": 0,
+        "special_values": {
+          "0": "No"
+        }
+      },
+      "34": {
+        "label": "Gameover Kickout",
+        "start": 7398,
+        "encoding": "enum",
+        "default": 1,
+        "values": [
+          "Never",
+          "Delayed",
+          "Instant"
+        ]
       }
     }
   },
