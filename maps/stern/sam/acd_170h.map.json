@@ -40,14 +40,36 @@
     "with a complement check byte, which is what a 32-bit score would be compared against. The score",
     "is therefore declared as 4 bytes until a value above 2^32 is observed or the ROM is disassembled."
   ],
-  "_fileformat": 0.7,
+  "_fileformat": 0.9,
   "_metadata": {
-    "version": 13,
+    "version": 14,
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "stern-sam",
     "roms": [
       "acd_170h"
-    ]
+    ],
+    "validation": {
+      "checksum": [
+        {
+          "label": "Free Play adjustment",
+          "start": "0x2102120",
+          "end": "0x2102124",
+          "complement": true
+        },
+        {
+          "label": "Balls Per Game adjustment",
+          "start": "0x2102108",
+          "end": "0x210210C",
+          "complement": true
+        },
+        {
+          "label": "Maximum Credits adjustment",
+          "start": "0x2102118",
+          "end": "0x210211C",
+          "complement": true
+        }
+      ]
+    }
   },
   "checksum8": [
     {
