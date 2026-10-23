@@ -39,7 +39,7 @@
   ],
   "_fileformat": 0.9,
   "_metadata": {
-    "version": 11,
+    "version": 12,
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "stern-sam",
     "roms": [
@@ -64,6 +64,17 @@
           "start": "0x2102108",
           "end": "0x210210C",
           "complement": true
+        },
+        {
+          "label": "High Score #{#}",
+          "start": "0x02102BD8",
+          "repeat": {
+            "count": 5,
+            "step": 32
+          },
+          "length": 30,
+          "bits": 16,
+          "complement": true
         }
       ]
     }
@@ -83,6 +94,33 @@
       "label": "Maximum Credits adjustment",
       "start": "0x02102108",
       "end": "0x0210210C"
+    }
+  ],
+  "checksum16": [
+    {
+      "label": "Grand Champion",
+      "start": "0x02102BD8",
+      "length": 30
+    },
+    {
+      "label": "First Place",
+      "start": "0x02102BF8",
+      "length": 30
+    },
+    {
+      "label": "Second Place",
+      "start": "0x02102C18",
+      "length": 30
+    },
+    {
+      "label": "Third Place",
+      "start": "0x02102C38",
+      "length": 30
+    },
+    {
+      "label": "Fourth Place",
+      "start": "0x02102C58",
+      "length": 30
     }
   ],
   "game_state": {
