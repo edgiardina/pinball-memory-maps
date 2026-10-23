@@ -1,10 +1,11 @@
 {
   "_notes": [
-    "2025-11: initial map created by Tom Collins, mnfb_c27 w/o mode_champions."
+    "2025-11: initial map created by Tom Collins, mnfb_c27 w/o mode_champions.",
+    "Adjustments 0x1F80-0x1FFD are protected by a plain 8-bit sum (complement false) at 0x1FFE, read from the ROM (potob5.3-2): the validator LDAA #$7E / LDX #$1F80 / CLRB / ADDB 0,X / INX / DECA / BNE, then CMPB $1FFE, and a matching writer that ends STAB $1FFE."
   ],
-  "_fileformat": 0.8,
+  "_fileformat": 0.9,
   "_metadata": {
-    "version": 4,
+    "version": 5,
     "copyright": [
       "Copyright (C) 2025 by Tom Collins <tom@scorbit.io>"
     ],
@@ -14,7 +15,18 @@
       "poto_a32",
       "poto_a31",
       "poto_a29"
-    ]
+    ],
+    "validation": {
+      "checksum": [
+        {
+          "label": "Adjustments",
+          "start": "0x1F80",
+          "length": 126,
+          "complement": false,
+          "checksum": "0x1FFE"
+        }
+      ]
+    }
   },
   "game_state": {
     "scores": [
