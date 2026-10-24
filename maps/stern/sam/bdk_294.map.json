@@ -26,7 +26,7 @@
   ],
   "_fileformat": 0.9,
   "_metadata": {
-    "version": 11,
+    "version": 12,
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "stern-sam",
     "roms": [
@@ -51,6 +51,28 @@
           "start": "0x2102108",
           "end": "0x210210C",
           "complement": true
+        },
+        {
+          "label": "High Score #{#}",
+          "start": "0x02102B00",
+          "repeat": {
+            "count": 5,
+            "step": 32
+          },
+          "length": 30,
+          "bits": 16,
+          "complement": true
+        },
+        {
+          "label": "Mode Champ #{#}",
+          "start": "0x02102BA0",
+          "repeat": {
+            "count": 3,
+            "step": 32
+          },
+          "length": 30,
+          "bits": 16,
+          "complement": true
         }
       ]
     }
@@ -70,6 +92,48 @@
       "label": "Maximum Credits adjustment",
       "start": "0x02102108",
       "end": "0x0210210C"
+    }
+  ],
+  "checksum16": [
+    {
+      "label": "Grand Champion",
+      "start": "0x02102B00",
+      "length": 30
+    },
+    {
+      "label": "First Place",
+      "start": "0x02102B20",
+      "length": 30
+    },
+    {
+      "label": "Second Place",
+      "start": "0x02102B40",
+      "length": 30
+    },
+    {
+      "label": "Third Place",
+      "start": "0x02102B60",
+      "length": 30
+    },
+    {
+      "label": "Fourth Place",
+      "start": "0x02102B80",
+      "length": 30
+    },
+    {
+      "label": "Batmobile Hurry-Up Champion",
+      "start": "0x02102BA0",
+      "length": 30
+    },
+    {
+      "label": "Bat Signal Challenge Champion",
+      "start": "0x02102BC0",
+      "length": 30
+    },
+    {
+      "label": "Gotham City Champion",
+      "start": "0x02102BE0",
+      "length": 30
     }
   ],
   "game_state": {

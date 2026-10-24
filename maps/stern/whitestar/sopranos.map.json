@@ -1,10 +1,11 @@
 {
   "_notes": [
-    "Compiled by Tom Collins, based on lotr."
+    "Compiled by Tom Collins, based on lotr.",
+    "Adjustments 0x1E00-0x1E62 are protected by a plain 8-bit sum (complement false) at 0x1FC1, read from the checksum routine in sopcpua.204, sopcpua.300, sopcpua.400, sopcpua.500, sopcpuf.107, sopcpuf.300, sopcpuf.400, sopcpuf.500, sopcpug.107, sopcpug.300, sopcpug.400, sopcpug.500, sopcpui.107, sopcpui.300, sopcpui.400, sopcpui.500, sopcpul.107, sopcpul.300, sopcpul.400, sopcpul.500: LDAB #$63 / LDX #$1E00 / ADDA ,X+ / DECB / BNE, then STAA $1FC1."
   ],
-  "_fileformat": 0.8,
+  "_fileformat": 0.9,
   "_metadata": {
-    "version": 2,
+    "version": 3,
     "copyright": [
       "Copyright (C) 2025 by Tom Collins <tom@scorbit.io>"
     ],
@@ -32,7 +33,18 @@
       "sopr107f",
       "sopr107l",
       "sopr107i"
-    ]
+    ],
+    "validation": {
+      "checksum": [
+        {
+          "label": "Adjustments",
+          "start": "0x1E00",
+          "length": "0x63",
+          "complement": false,
+          "checksum": "0x1FC1"
+        }
+      ]
+    }
   },
   "game_state": {
     "scores": [

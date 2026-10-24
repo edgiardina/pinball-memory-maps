@@ -35,7 +35,7 @@
   ],
   "_fileformat": 0.9,
   "_metadata": {
-    "version": 15,
+    "version": 16,
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "stern-sam",
     "roms": [
@@ -66,6 +66,28 @@
           "start": "0x2110204",
           "end": "0x2110205",
           "complement": true
+        },
+        {
+          "label": "High Score #{#}",
+          "start": "0x02103714",
+          "repeat": {
+            "count": 5,
+            "step": 36
+          },
+          "length": 34,
+          "bits": 16,
+          "complement": true
+        },
+        {
+          "label": "Mode Champ #{#}",
+          "start": "0x021037C8",
+          "repeat": {
+            "count": 14,
+            "step": 36
+          },
+          "length": 34,
+          "bits": 16,
+          "complement": true
         }
       ]
     }
@@ -90,6 +112,103 @@
       "label": "Master Volume",
       "start": "0x02110204",
       "end": "0x02110205"
+    }
+  ],
+  "checksum16": [
+    {
+      "label": "Grand Champion",
+      "start": "0x02103714",
+      "length": 34
+    },
+    {
+      "label": "First Place",
+      "start": "0x02103738",
+      "length": 34
+    },
+    {
+      "label": "Second Place",
+      "start": "0x0210375C",
+      "length": 34
+    },
+    {
+      "label": "Third Place",
+      "start": "0x02103780",
+      "length": 34
+    },
+    {
+      "label": "Fourth Place",
+      "start": "0x021037A4",
+      "length": 34
+    },
+    {
+      "label": "Walkers Killed Champion",
+      "start": "0x021037C8",
+      "length": 34
+    },
+    {
+      "label": "Combo Champion",
+      "start": "0x021037EC",
+      "length": 34
+    },
+    {
+      "label": "Bicycle Girl Champion",
+      "start": "0x02103810",
+      "length": 34
+    },
+    {
+      "label": "Barn Champion",
+      "start": "0x02103834",
+      "length": 34
+    },
+    {
+      "label": "CDC Champion",
+      "start": "0x02103858",
+      "length": 34
+    },
+    {
+      "label": "Riot Champion",
+      "start": "0x0210387C",
+      "length": 34
+    },
+    {
+      "label": "Tunnel Champion",
+      "start": "0x021038A0",
+      "length": 34
+    },
+    {
+      "label": "Arena Champion",
+      "start": "0x021038C4",
+      "length": 34
+    },
+    {
+      "label": "Terminus Champion",
+      "start": "0x021038E8",
+      "length": 34
+    },
+    {
+      "label": "Blood Bath Champion",
+      "start": "0x0210390C",
+      "length": 34
+    },
+    {
+      "label": "Crossbow Champion",
+      "start": "0x02103930",
+      "length": 34
+    },
+    {
+      "label": "X Champion",
+      "start": "0x02103954",
+      "length": 34
+    },
+    {
+      "label": "Horde Champion",
+      "start": "0x02103978",
+      "length": 34
+    },
+    {
+      "label": "Last Man Standing Champion",
+      "start": "0x0210399C",
+      "length": 34
     }
   ],
   "game_state": {
