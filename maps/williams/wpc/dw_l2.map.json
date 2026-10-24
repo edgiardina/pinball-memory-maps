@@ -1561,7 +1561,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1708,7 +1708,7 @@
         "min": 0,
         "max": 99,
         "default": 35,
-        "suffix": " Sec",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1731,7 +1731,7 @@
         "min": 0,
         "max": 99,
         "default": 10,
-        "suffix": " %",
+        "suffix": "%",
         "special_values": {
           "0": "Off"
         }
@@ -1757,7 +1757,7 @@
         "min": 0,
         "max": 99,
         "default": 10,
-        "suffix": " %",
+        "suffix": "%",
         "special_values": {
           "0": "Off"
         }
@@ -1814,7 +1814,7 @@
         "min": 2,
         "max": 50,
         "default": 10,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "11": {
         "label": "2nd W-H-O Timer",
@@ -1824,7 +1824,7 @@
         "min": 2,
         "max": 50,
         "default": 8,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "12": {
         "label": "3rd W-H-O Timer",
@@ -1834,7 +1834,7 @@
         "min": 2,
         "max": 50,
         "default": 7,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "13": {
         "label": "Last W-H-O Timer",
@@ -1844,7 +1844,7 @@
         "min": 2,
         "max": 50,
         "default": 6,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "14": {
         "_notes": "The value shows after the prefix \"Jackpot\".",
@@ -1892,7 +1892,7 @@
         "min": 1,
         "max": 50,
         "default": 10,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "19": {
         "label": "Rematch 2nd Ball",
@@ -1902,7 +1902,7 @@
         "min": 1,
         "max": 50,
         "default": 5,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "20": {
         "label": "Rematch Targ. Add",
@@ -1912,7 +1912,7 @@
         "min": 0,
         "max": 50,
         "default": 5,
-        "suffix": " Sec",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1935,7 +1935,7 @@
         "min": 1,
         "max": 50,
         "default": 10,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "23": {
         "label": "R.E.P.A.I.R. 2 Lamps",
@@ -1945,7 +1945,7 @@
         "min": 1,
         "max": 50,
         "default": 9,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "24": {
         "label": "R.E.P.A.I.R. 3 Lamps",
@@ -1955,7 +1955,7 @@
         "min": 1,
         "max": 50,
         "default": 8,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "25": {
         "label": "R.E.P.A.I.R. 4 Lamps",
@@ -1965,7 +1965,7 @@
         "min": 1,
         "max": 50,
         "default": 7,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "26": {
         "label": "R.E.P.A.I.R. 5 Lamps",
@@ -1975,7 +1975,7 @@
         "min": 1,
         "max": 50,
         "default": 6,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "27": {
         "label": "R.E.P.A.I.R. All Lamps",
@@ -1985,7 +1985,7 @@
         "min": 1,
         "max": 50,
         "default": 10,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "28": {
         "label": "Transmat/Doc. Mem.",
@@ -1998,7 +1998,7 @@
         ]
       },
       "29": {
-        "_notes": "The display scale was not found: the screen showed 00, 2,000,000, 700,000, 750,000, 800,000.",
+        "_notes": "Display not decoded: the screen showed 00, 2,000,000, 700,000, 750,000, 800,000.",
         "label": "Transmat Spotdoc.",
         "start": 7257,
         "length": 2,
@@ -2087,7 +2087,7 @@
         "min": 2,
         "max": 50,
         "default": 10,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "37": {
         "label": "Playfield, 2.0X",
@@ -2097,7 +2097,7 @@
         "min": 2,
         "max": 50,
         "default": 9,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "38": {
         "label": "Playfield, 2.5X",
@@ -2107,7 +2107,7 @@
         "min": 2,
         "max": 50,
         "default": 8,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "39": {
         "label": "Playfield, 3.0X",
@@ -2117,7 +2117,7 @@
         "min": 2,
         "max": 50,
         "default": 7,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "40": {
         "label": "Playfield, 3.5X",
@@ -2127,7 +2127,7 @@
         "min": 2,
         "max": 50,
         "default": 6,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "41": {
         "label": "Playfield, 4.0X",
@@ -2137,7 +2137,7 @@
         "min": 2,
         "max": 50,
         "default": 10,
-        "suffix": " Sec"
+        "units": "seconds"
       },
       "42": {
         "label": "Hang-On Time",
@@ -2147,7 +2147,7 @@
         "min": 0,
         "max": 50,
         "default": 2,
-        "suffix": " Sec",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -2160,7 +2160,7 @@
         "min": 0,
         "max": 15,
         "default": 2,
-        "suffix": " Sec",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -2259,7 +2259,8 @@
         "min": 0,
         "max": 120,
         "default": 0,
-        "suffix": " Sec",
+        "multiple_of": 5,
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -2288,20 +2289,76 @@
       "55": {
         "label": "Game Start Doc.",
         "start": 7310,
-        "length": 1,
-        "encoding": "int",
+        "encoding": "enum",
         "min": 57,
         "max": 63,
         "default": 63,
-        "special_values": {
-          "57": "1",
-          "58": "2",
-          "59": "3",
-          "60": "4",
-          "61": "5",
-          "62": "6",
-          "63": "7"
-        }
+        "values": [
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "n/a",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
       }
     }
   },

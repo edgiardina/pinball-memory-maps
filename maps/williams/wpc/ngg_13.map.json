@@ -1176,7 +1176,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1347,7 +1347,7 @@
         ]
       },
       "03": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "German Speech",
         "start": 7186,
         "encoding": "enum",

@@ -1238,7 +1238,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {

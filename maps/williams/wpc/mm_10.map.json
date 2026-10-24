@@ -1597,7 +1597,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1867,7 +1867,7 @@
         "default": 30
       },
       "13": {
-        "_notes": "Flagged: The walk did not reach the minimum.",
+        "_notes": "Minimum from the ROM table: not seen on screen.",
         "label": "Hurry Up E.B. 1",
         "start": 7251,
         "length": 2,
@@ -2106,7 +2106,7 @@
       },
       "36": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
           "Value names left out: this ROM's choice lists do not match its screens."
         ],
         "label": "Buy Extra Ball",
@@ -2115,7 +2115,7 @@
         "default": 0
       },
       "37": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Buy In Count",
         "start": 7299,
         "length": 2,
@@ -2125,7 +2125,7 @@
         "default": 1
       },
       "38": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Castle Champion",
         "start": 7301,
         "length": 2,
@@ -2135,7 +2135,7 @@
         "default": 6
       },
       "39": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Castle Credits",
         "start": 7303,
         "length": 2,
@@ -2145,7 +2145,7 @@
         "default": 0
       },
       "40": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Joust Champion",
         "start": 7305,
         "length": 2,
@@ -2155,7 +2155,7 @@
         "default": 5
       },
       "41": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Joust Credits",
         "start": 7307,
         "length": 2,
@@ -2165,7 +2165,7 @@
         "default": 0
       },
       "42": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Catapult Champ.",
         "start": 7309,
         "length": 2,
@@ -2175,7 +2175,7 @@
         "default": 5
       },
       "43": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Catapult Credits",
         "start": 7311,
         "length": 2,
@@ -2185,7 +2185,7 @@
         "default": 0
       },
       "44": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Peasant Champion",
         "start": 7313,
         "length": 2,
@@ -2195,7 +2195,7 @@
         "default": 5
       },
       "45": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Peasant Credits",
         "start": 7315,
         "length": 2,
@@ -2205,7 +2205,7 @@
         "default": 0
       },
       "46": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Damsel Champion",
         "start": 7317,
         "length": 2,
@@ -2215,7 +2215,7 @@
         "default": 5
       },
       "47": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Damsel Credits",
         "start": 7319,
         "length": 2,
@@ -2225,7 +2225,7 @@
         "default": 0
       },
       "48": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Troll Champion",
         "start": 7321,
         "length": 2,
@@ -2235,7 +2235,7 @@
         "default": 32
       },
       "49": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Troll Credits",
         "start": 7323,
         "length": 2,
@@ -2245,7 +2245,7 @@
         "default": 0
       },
       "50": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Madness Champion",
         "start": 7325,
         "length": 2,
@@ -2255,7 +2255,7 @@
         "default": 32
       },
       "51": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Madness Credits",
         "start": 7327,
         "length": 2,
@@ -2265,7 +2265,7 @@
         "default": 0
       },
       "52": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Battle Credits",
         "start": 7329,
         "length": 2,
@@ -2275,7 +2275,7 @@
         "default": 0
       },
       "53": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Battle Champ. 1",
         "start": 7331,
         "length": 2,
@@ -2285,7 +2285,7 @@
         "default": 1
       },
       "54": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Battle Champ. 2",
         "start": 7333,
         "length": 2,
@@ -2295,7 +2295,7 @@
         "default": 0
       },
       "55": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Battle Champ. 3",
         "start": 7335,
         "length": 2,
@@ -2305,7 +2305,7 @@
         "default": 0
       },
       "56": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Battle Champ. 4",
         "start": 7337,
         "length": 2,

@@ -1128,7 +1128,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1270,8 +1270,8 @@
     "A.2 Feature Adjustments": {
       "01": {
         "_notes": [
-          "The display scale was not found: the screen showed 05, 06, 07, 09.",
-          "Flagged: The walk did not reach the maximum."
+          "Display not decoded: the screen showed 05, 06, 07, 09.",
+          "Maximum from the ROM table: not seen on screen."
         ],
         "label": "Ex. Ball Count",
         "start": 7101,
@@ -1288,7 +1288,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "03": {
@@ -1312,8 +1312,8 @@
       },
       "05": {
         "_notes": [
-          "The walk did not tie the value texts to stored numbers. The factory screen shows \"5 sec.\".",
-          "Flagged: The walk stopped stepping before the values wrapped."
+          "The screen did not confirm the values 0, 1.",
+          "Not every value was seen on screen."
         ],
         "label": "Ballsave Time",
         "start": 7109,
@@ -1321,7 +1321,8 @@
         "encoding": "int",
         "min": 0,
         "max": 10,
-        "default": 5
+        "default": 5,
+        "units": "seconds"
       },
       "06": {
         "label": "Manhunt Timer",
@@ -1331,7 +1332,7 @@
         "min": 15,
         "max": 35,
         "default": 30,
-        "suffix": " sec."
+        "units": "seconds"
       },
       "07": {
         "label": "Sniper Timer",
@@ -1341,7 +1342,7 @@
         "min": 15,
         "max": 35,
         "default": 30,
-        "suffix": " sec."
+        "units": "seconds"
       },
       "08": {
         "label": "Stakeout Timer",
@@ -1351,7 +1352,7 @@
         "min": 15,
         "max": 35,
         "default": 30,
-        "suffix": " sec."
+        "units": "seconds"
       },
       "09": {
         "label": "Pursuit Timer",
@@ -1361,7 +1362,7 @@
         "min": 15,
         "max": 35,
         "default": 30,
-        "suffix": " sec."
+        "units": "seconds"
       },
       "10": {
         "label": "Safecrackr Timer",
@@ -1371,7 +1372,7 @@
         "min": 15,
         "max": 35,
         "default": 30,
-        "suffix": " sec."
+        "units": "seconds"
       },
       "11": {
         "label": "Bad Imper. Timer",
@@ -1381,7 +1382,7 @@
         "min": 15,
         "max": 35,
         "default": 30,
-        "suffix": " sec."
+        "units": "seconds"
       },
       "12": {
         "label": "Meltdown Timer",
@@ -1391,7 +1392,7 @@
         "min": 15,
         "max": 35,
         "default": 30,
-        "suffix": " sec."
+        "units": "seconds"
       },
       "13": {
         "label": "Battle Tnk Timer",
@@ -1401,83 +1402,87 @@
         "min": 15,
         "max": 35,
         "default": 30,
-        "suffix": " sec."
+        "units": "seconds"
       },
       "14": {
         "_notes": [
-          "The ROM table range 500-1500 does not hold the factory default 350: the range is left out.",
-          "Flagged: The value probe started from an unknown value: only the default screen was read."
+          "Minimum from the ROM table: not seen on screen.",
+          "Maximum from the ROM table: not seen on screen."
         ],
         "label": "Super Grnd Champ.",
         "start": 7127,
         "length": 2,
         "encoding": "bcd",
+        "min": 250,
+        "max": 999,
         "default": 350,
         "scale": 1000000
       },
       "15": {
         "_notes": [
-          "The display scale was not found: the screen showed 315,000,000, 320,000,000, 325,000,000.",
-          "Flagged: The walk could not follow the value down to the minimum. The walk could not follow the value up to the maximum."
+          "Minimum from the ROM table: not seen on screen.",
+          "Maximum from the ROM table: not seen on screen."
         ],
         "label": "Super HSTD 1",
         "start": 7129,
         "length": 2,
-        "encoding": "int",
-        "min": 592,
-        "max": 2457,
-        "default": 800
+        "encoding": "bcd",
+        "min": 150,
+        "max": 999,
+        "default": 320,
+        "scale": 1000000
       },
       "16": {
         "_notes": [
-          "The display scale was not found: the screen showed 305,000,000, 310,000,000, 315,000,000.",
-          "Flagged: The walk could not follow the value down to the minimum. The walk could not follow the value up to the maximum."
+          "Minimum from the ROM table: not seen on screen.",
+          "Maximum from the ROM table: not seen on screen."
         ],
         "label": "Super HSTD 2",
         "start": 7131,
         "length": 2,
-        "encoding": "int",
-        "min": 336,
-        "max": 2457,
-        "default": 784
+        "encoding": "bcd",
+        "min": 140,
+        "max": 999,
+        "default": 310,
+        "scale": 1000000
       },
       "17": {
         "_notes": [
-          "The display scale was not found: the screen showed 295,000,000, 300,000,000, 305,000,000.",
-          "Flagged: The walk could not follow the value down to the minimum. The walk could not follow the value up to the maximum."
+          "Minimum from the ROM table: not seen on screen.",
+          "Maximum from the ROM table: not seen on screen."
         ],
         "label": "Super HSTD 3",
         "start": 7133,
         "length": 2,
-        "encoding": "int",
-        "min": 320,
-        "max": 2457,
-        "default": 768
+        "encoding": "bcd",
+        "min": 130,
+        "max": 999,
+        "default": 300,
+        "scale": 1000000
       },
       "18": {
         "_notes": [
-          "The display scale was not found: the screen showed 285,000,000, 290,000,000, 295,000,000.",
-          "Flagged: The walk could not follow the value down to the minimum. The walk could not follow the value up to the maximum."
+          "Minimum from the ROM table: not seen on screen.",
+          "Maximum from the ROM table: not seen on screen."
         ],
         "label": "Super HSTD 4",
         "start": 7135,
         "length": 2,
-        "encoding": "int",
-        "min": 304,
-        "max": 2457,
-        "default": 656
+        "encoding": "bcd",
+        "min": 120,
+        "max": 999,
+        "default": 290,
+        "scale": 1000000
       },
       "19": {
-        "_notes": [
-          "The ROM table range 288-2457 does not hold the factory default 1: the range is left out.",
-          "Flagged: The value probe started from an unknown value: only the default screen was read."
-        ],
         "label": "Buy Extra Ball",
-        "start": 7137,
-        "length": 2,
-        "encoding": "int",
+        "start": 7138,
+        "encoding": "enum",
         "default": 1,
-        "suffix": " CREDIT"
+        "values": [
+          "Off",
+          "1 Credit"
+        ]
       }
     }
   },

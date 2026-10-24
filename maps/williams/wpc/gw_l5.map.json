@@ -1238,7 +1238,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1384,7 +1384,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "02": {
@@ -1395,7 +1395,7 @@
         "min": 0,
         "max": 10,
         "default": 3,
-        "suffix": " %",
+        "suffix": "%",
         "special_values": {
           "0": "Off"
         }
@@ -1408,7 +1408,7 @@
         "min": 0,
         "max": 35,
         "default": 12,
-        "suffix": " %",
+        "suffix": "%",
         "special_values": {
           "0": "Off"
         }
@@ -1421,7 +1421,7 @@
         "min": 0,
         "max": 120,
         "default": 0,
-        "suffix": " secs",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1433,7 +1433,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "06": {
@@ -1456,7 +1456,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "08": {
@@ -1466,7 +1466,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "09": {
@@ -1477,7 +1477,7 @@
         "min": 10,
         "max": 99,
         "default": 20,
-        "suffix": " secs"
+        "units": "seconds"
       },
       "10": {
         "label": "Video Mode Timer",
@@ -1487,7 +1487,7 @@
         "min": 10,
         "max": 30,
         "default": 14,
-        "suffix": " secs"
+        "units": "seconds"
       },
       "11": {
         "label": "Freeway Timer",
@@ -1497,7 +1497,7 @@
         "min": 6,
         "max": 20,
         "default": 8,
-        "suffix": " secs"
+        "units": "seconds"
       },
       "12": {
         "label": "Photo Shoot",
@@ -1506,7 +1506,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "13": {
@@ -1517,7 +1517,7 @@
         "min": 10,
         "max": 50,
         "default": 20,
-        "suffix": " %"
+        "suffix": "%"
       },
       "14": {
         "label": "S. Charger Timer",
@@ -1527,7 +1527,7 @@
         "min": 10,
         "max": 99,
         "default": 20,
-        "suffix": " secs"
+        "units": "seconds"
       },
       "15": {
         "label": "Divertor Broken",
@@ -1536,7 +1536,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "16": {
@@ -1546,17 +1546,17 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "17": {
-        "label": "Spot L. ON S. Ramp",
+        "label": "Spot L. On S. Ramp",
         "start": 7132,
         "encoding": "enum",
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "18": {
@@ -1566,7 +1566,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       }
     }

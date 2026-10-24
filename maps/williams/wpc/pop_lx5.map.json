@@ -1219,7 +1219,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1384,7 +1384,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "04": {
@@ -1431,17 +1431,15 @@
         ]
       },
       "08": {
-        "_notes": [
-          "The display scale was not found: the screen showed 20,000,000, 39,000,000, 40,000,000, 41,000,000, 60,000,000.",
-          "Flagged: The walk could not follow the value down to the minimum."
-        ],
+        "_notes": "Minimum from the ROM table: not seen on screen.",
         "label": "Hurry Up Start",
         "start": 7115,
         "length": 2,
-        "encoding": "int",
-        "min": 32,
-        "max": 96,
-        "default": 64
+        "encoding": "bcd",
+        "min": 20,
+        "max": 60,
+        "default": 40,
+        "scale": 1000000
       },
       "09": {
         "label": "Escal. Award Time",
@@ -1484,7 +1482,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "13": {
@@ -1494,7 +1492,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "14": {

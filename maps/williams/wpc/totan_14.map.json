@@ -1287,7 +1287,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1439,7 +1439,7 @@
         ]
       },
       "02": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Buy In Count",
         "start": 7337,
         "length": 2,
@@ -1470,7 +1470,7 @@
       },
       "05": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
           "Value names left out: this ROM's choice lists do not match its screens."
         ],
         "label": "German Speech",
@@ -1550,7 +1550,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "13": {

@@ -1379,7 +1379,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1626,7 +1626,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "11": {
@@ -1637,7 +1637,7 @@
         "values": [
           "Off",
           "Sparse",
-          "ON"
+          "On"
         ]
       },
       "12": {
@@ -1647,7 +1647,8 @@
         "encoding": "int",
         "min": 25,
         "max": 45,
-        "default": 35
+        "default": 35,
+        "multiple_of": 5
       },
       "13": {
         "label": "Multiball Percnt",
@@ -1656,7 +1657,8 @@
         "encoding": "int",
         "min": 25,
         "max": 45,
-        "default": 35
+        "default": 35,
+        "multiple_of": 5
       },
       "14": {
         "label": "Extraball Memory",
@@ -1665,7 +1667,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "15": {
@@ -1675,7 +1677,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "16": {
@@ -1685,7 +1687,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "17": {
@@ -1695,7 +1697,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "18": {
@@ -1705,7 +1707,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       }
     }

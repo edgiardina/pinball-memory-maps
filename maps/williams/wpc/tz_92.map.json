@@ -1264,7 +1264,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1505,7 +1505,7 @@
         "default": 2
       },
       "11": {
-        "_notes": "Flagged: The save rewrote much of the block, so the address comes from the item spacing.",
+        "_notes": "Address not confirmed by a single change: it follows the spacing of the other items.",
         "label": "1st Hard Release",
         "start": 7321,
         "length": 2,
@@ -1555,7 +1555,7 @@
         ]
       },
       "16": {
-        "_notes": "Flagged: The save rewrote much of the block, so the address comes from the item spacing.",
+        "_notes": "Address not confirmed by a single change: it follows the spacing of the other items.",
         "label": "Slot Difficulty",
         "start": 7332,
         "encoding": "enum",
@@ -1605,7 +1605,7 @@
         "min": 5,
         "max": 15,
         "default": 10,
-        "suffix": " RAMPS",
+        "suffix": " Ramps",
         "special_values": {
           "5": "Off"
         }
@@ -1621,7 +1621,7 @@
         ]
       },
       "22": {
-        "_notes": "Flagged: The save rewrote much of the block, so the address comes from the item spacing.",
+        "_notes": "Address not confirmed by a single change: it follows the spacing of the other items.",
         "label": "Power At Start",
         "start": 7344,
         "encoding": "enum",
@@ -1727,8 +1727,8 @@
       },
       "32": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Backup L.I.Z. Champ",
         "start": 7363,
@@ -1778,7 +1778,7 @@
       },
       "37": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
           "Value names left out: this ROM's choice lists do not match its screens."
         ],
         "label": "Freeplay Message",
@@ -1787,7 +1787,7 @@
         "default": 1
       },
       "38": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Buy In Count",
         "start": 7376,
         "encoding": "enum",

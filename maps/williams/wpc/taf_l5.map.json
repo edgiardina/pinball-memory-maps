@@ -1192,7 +1192,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1359,7 +1359,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "04": {
@@ -1461,17 +1461,15 @@
         ]
       },
       "13": {
-        "_notes": [
-          "The display scale was not found: the screen showed 10,000,000, 11,000,000, 20,000,000, 5,000,000, 9,000,000.",
-          "Flagged: The walk could not follow the value down to the minimum."
-        ],
+        "_notes": "Minimum from the ROM table: not seen on screen.",
         "label": "Mil. Plus Max.",
         "start": 7123,
         "length": 2,
-        "encoding": "int",
+        "encoding": "bcd",
         "min": 5,
-        "max": 32,
-        "default": 16
+        "max": 20,
+        "default": 10,
+        "scale": 1000000
       },
       "14": {
         "label": "Hurry Up Start",
@@ -1571,7 +1569,7 @@
         ]
       },
       "24": {
-        "_notes": "Flagged: The save rewrote much of the block, so the address comes from the item spacing.",
+        "_notes": "Address not confirmed by a single change: it follows the spacing of the other items.",
         "label": "Green Lock Lamp",
         "start": 7146,
         "encoding": "enum",
@@ -1594,15 +1592,15 @@
       "26": {
         "label": "Tour Difficulty",
         "start": 7150,
-        "length": 1,
-        "encoding": "int",
+        "encoding": "enum",
         "min": 1,
         "max": 2,
         "default": 1,
-        "special_values": {
-          "1": "Medium",
-          "2": "Hard"
-        }
+        "values": [
+          "n/a",
+          "Medium",
+          "Hard"
+        ]
       },
       "27": {
         "label": "A-Mode Sound",
@@ -1625,7 +1623,7 @@
         ]
       },
       "29": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Gameover Kickout",
         "start": 7156,
         "encoding": "enum",
@@ -1636,7 +1634,7 @@
         ]
       },
       "30": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Spot Greed/Ball",
         "start": 7158,
         "encoding": "enum",
@@ -1647,18 +1645,18 @@
         ]
       },
       "31": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Freeplay Message",
         "start": 7160,
         "encoding": "enum",
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "32": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Spot T-H-I-N-G",
         "start": 7162,
         "encoding": "enum",

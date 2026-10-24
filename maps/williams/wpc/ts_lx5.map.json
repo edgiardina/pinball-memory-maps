@@ -1528,7 +1528,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1671,16 +1671,14 @@
       "01": {
         "label": "Buy Extra Ball",
         "start": 7290,
-        "length": 1,
-        "encoding": "int",
-        "min": 0,
-        "max": 3,
+        "encoding": "enum",
         "default": 3,
-        "special_values": {
-          "0": "Off",
-          "1": "1/2 Cred.",
-          "3": "1 Credit"
-        }
+        "values": [
+          "Off",
+          "1/2 Cred.",
+          "n/a",
+          "1 Credit"
+        ]
       },
       "02": {
         "label": "Max. Buyin Balls",
@@ -1698,7 +1696,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "04": {
@@ -1708,7 +1706,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "05": {
@@ -1719,7 +1717,8 @@
         "min": 25,
         "max": 120,
         "default": 25,
-        "suffix": " SEC",
+        "multiple_of": 5,
+        "units": "seconds",
         "special_values": {
           "25": "Off"
         }
@@ -1731,7 +1730,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "07": {
@@ -1742,7 +1741,7 @@
         "min": 0,
         "max": 60,
         "default": 5,
-        "suffix": " SEC",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1755,7 +1754,7 @@
         "min": 0,
         "max": 60,
         "default": 12,
-        "suffix": " SEC",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1768,7 +1767,7 @@
         "min": 0,
         "max": 60,
         "default": 6,
-        "suffix": " SEC",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1781,7 +1780,7 @@
         "min": 0,
         "max": 60,
         "default": 9,
-        "suffix": " SEC",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1824,17 +1823,15 @@
         "default": 30
       },
       "15": {
-        "_notes": [
-          "The display scale was not found: the screen showed 20,000,000, 29,000,000, 30,000,000, 31,000,000, 45,000,000.",
-          "Flagged: The walk could not follow the value down to the minimum."
-        ],
+        "_notes": "Minimum from the ROM table: not seen on screen.",
         "label": "Escape Doom Max",
         "start": 7317,
         "length": 2,
-        "encoding": "int",
-        "min": 32,
-        "max": 69,
-        "default": 48
+        "encoding": "bcd",
+        "min": 20,
+        "max": 45,
+        "default": 30,
+        "scale": 1000000
       },
       "16": {
         "label": "Vengeance Timer",
@@ -1853,7 +1850,7 @@
         "min": 1,
         "max": 30,
         "default": 10,
-        "suffix": " SEC"
+        "units": "seconds"
       },
       "18": {
         "label": "Ex. Ball Percent",
@@ -1934,7 +1931,7 @@
         "min": 5,
         "max": 99,
         "default": 15,
-        "suffix": " SEC"
+        "units": "seconds"
       },
       "26": {
         "label": "Hold Locks",
@@ -1966,7 +1963,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "29": {
@@ -1976,7 +1973,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "30": {
@@ -1986,7 +1983,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "31": {
@@ -1996,7 +1993,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "32": {
@@ -2019,7 +2016,7 @@
         "default": 3
       },
       "34": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Sdw. Loop Default",
         "start": 7355,
         "length": 2,
@@ -2030,8 +2027,8 @@
       },
       "35": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux Grand",
         "start": 7357,
@@ -2043,8 +2040,8 @@
       },
       "36": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux HSTD 1",
         "start": 7359,
@@ -2056,8 +2053,8 @@
       },
       "37": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux HSTD 2",
         "start": 7361,
@@ -2069,8 +2066,8 @@
       },
       "38": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux HSTD 3",
         "start": 7363,
@@ -2082,8 +2079,8 @@
       },
       "39": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux HSTD 4",
         "start": 7365,

@@ -1379,7 +1379,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1526,13 +1526,13 @@
         "min": 0,
         "max": 10,
         "default": 3,
-        "suffix": " %",
+        "suffix": "%",
         "special_values": {
           "0": "Off"
         }
       },
       "02": {
-        "_notes": "Flagged: The walk did not reach the minimum.",
+        "_notes": "Minimum from the ROM table: not seen on screen.",
         "label": "Extraball Percnt",
         "start": 7103,
         "length": 2,
@@ -1540,7 +1540,7 @@
         "min": 0,
         "max": 35,
         "default": 20,
-        "suffix": " %",
+        "suffix": "%",
         "special_values": {
           "0": "Off"
         }
@@ -1553,7 +1553,7 @@
         "min": 0,
         "max": 120,
         "default": 0,
-        "suffix": " secs",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1578,7 +1578,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "06": {
@@ -1589,7 +1589,7 @@
         "min": 10,
         "max": 50,
         "default": 20,
-        "suffix": " %"
+        "suffix": "%"
       },
       "07": {
         "label": "Command Reruns",
@@ -1610,7 +1610,7 @@
         "min": 8,
         "max": 20,
         "default": 10,
-        "suffix": " secs"
+        "units": "seconds"
       },
       "09": {
         "label": "Skill Lock Count",
@@ -1637,16 +1637,18 @@
       "11": {
         "label": "Buy In Count",
         "start": 7122,
-        "length": 1,
-        "encoding": "int",
-        "min": 1,
+        "encoding": "enum",
+        "min": 3,
         "max": 5,
         "default": 3,
-        "special_values": {
-          "3": "3 Buy Ins",
-          "4": "Unlimited",
-          "5": "2 Buy Ins"
-        }
+        "values": [
+          "n/a",
+          "n/a",
+          "n/a",
+          "3 Buy Ins",
+          "Unlimited",
+          "2 Buy Ins"
+        ]
       },
       "12": {
         "label": "Return To Duty",
@@ -1655,7 +1657,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "13": {
@@ -1665,17 +1667,17 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "14": {
-        "label": "Video ON",
+        "label": "Video On",
         "start": 7128,
         "encoding": "enum",
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "15": {
@@ -1685,7 +1687,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "16": {
@@ -1695,7 +1697,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "17": {
@@ -1719,56 +1721,51 @@
         ]
       },
       "19": {
-        "_notes": [
-          "The display scale was not found: the screen showed 4,990,000,000, 5,000,000,000, 5,010,000,000, 5,780,000,000.",
-          "Flagged: The walk could not follow the value down to the minimum."
-        ],
+        "_notes": "Minimum from the ROM table: not seen on screen.",
         "label": "Bckup Aux HSTD 1",
         "start": 7137,
         "length": 2,
-        "encoding": "int",
+        "encoding": "bcd",
         "min": 0,
-        "max": 39312,
-        "default": 20480
+        "max": 9990,
+        "default": 5000,
+        "scale": 1000000
       },
       "20": {
-        "_notes": [
-          "The display scale was not found: the screen showed 1,990,000,000, 2,000,000,000, 2,010,000,000, 2,780,000,000.",
-          "Flagged: The walk could not follow the value down to the minimum."
-        ],
+        "_notes": "Minimum from the ROM table: not seen on screen.",
         "label": "Bckup Aux HSTD 2",
         "start": 7139,
         "length": 2,
-        "encoding": "int",
+        "encoding": "bcd",
         "min": 0,
-        "max": 39312,
-        "default": 8192
+        "max": 9990,
+        "default": 2000,
+        "scale": 1000000
       },
       "21": {
-        "_notes": [
-          "The display scale was not found: the screen showed 1,000,000,000, 1,010,000,000, 1,780,000,000, 990,000,000.",
-          "Flagged: The walk could not follow the value down to the minimum."
-        ],
+        "_notes": "Minimum from the ROM table: not seen on screen.",
         "label": "Bckup Aux HSTD 3",
         "start": 7141,
         "length": 2,
-        "encoding": "int",
+        "encoding": "bcd",
         "min": 0,
-        "max": 39312,
-        "default": 4096
+        "max": 9990,
+        "default": 1000,
+        "scale": 1000000
       },
       "22": {
         "_notes": [
-          "The display scale was not found: the screen showed 490,000,000, 500,000,000, 510,000,000.",
-          "Flagged: The walk could not follow the value down to the minimum. The walk did not reach the maximum."
+          "Minimum from the ROM table: not seen on screen.",
+          "Maximum from the ROM table: not seen on screen."
         ],
         "label": "Bckup Aux HSTD 4",
         "start": 7143,
         "length": 2,
-        "encoding": "int",
+        "encoding": "bcd",
         "min": 0,
-        "max": 39312,
-        "default": 1280
+        "max": 9990,
+        "default": 500,
+        "scale": 1000000
       },
       "23": {
         "label": "Post Game Show",
@@ -1807,7 +1804,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "27": {
@@ -1817,12 +1814,12 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "28": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
           "Value names left out: this ROM's choice lists do not match its screens."
         ],
         "label": "Special Speech",

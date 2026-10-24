@@ -897,8 +897,8 @@
       },
       "22": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Backup Demo Champ",
         "start": 7143,
@@ -910,7 +910,7 @@
       },
       "23": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
           "Value names left out: this ROM's choice lists do not match its screens."
         ],
         "label": "Secret Features",

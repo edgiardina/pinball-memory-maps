@@ -1253,7 +1253,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1420,7 +1420,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "04": {
@@ -1454,17 +1454,15 @@
         ]
       },
       "07": {
-        "_notes": [
-          "The display scale was not found: the screen showed 10,000,000, 19,000,000, 20,000,000, 21,000,000, 30,000,000.",
-          "Flagged: The walk could not follow the value down to the minimum."
-        ],
+        "_notes": "Minimum from the ROM table: not seen on screen.",
         "label": "Hurry Up Start",
         "start": 7113,
         "length": 2,
-        "encoding": "int",
-        "min": 16,
-        "max": 48,
-        "default": 32
+        "encoding": "bcd",
+        "min": 10,
+        "max": 30,
+        "default": 20,
+        "scale": 1000000
       },
       "08": {
         "label": "Hot Foot Percent",
@@ -1494,7 +1492,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "11": {
@@ -1532,7 +1530,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "15": {
@@ -1542,7 +1540,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       }
     }

@@ -905,7 +905,7 @@
         "default": 0
       },
       "19": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Cyberpunk Credit",
         "start": 7145,
         "length": 2,
@@ -916,8 +916,8 @@
       },
       "20": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Def. Cyberpunk",
         "start": 7147,
@@ -929,8 +929,8 @@
       },
       "21": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Backup Null Champ",
         "start": 7149,

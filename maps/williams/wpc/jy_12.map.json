@@ -1306,7 +1306,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1479,7 +1479,7 @@
         }
       },
       "04": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Ball Save Time",
         "start": 7245,
         "length": 2,
@@ -1517,7 +1517,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "08": {
@@ -1538,7 +1538,7 @@
         "values": [
           "Off",
           "Sparse",
-          "ON"
+          "On"
         ]
       },
       "10": {
@@ -1548,7 +1548,8 @@
         "encoding": "int",
         "min": 25,
         "max": 45,
-        "default": 35
+        "default": 35,
+        "multiple_of": 5
       },
       "11": {
         "label": "Multiball Percnt",
@@ -1557,7 +1558,8 @@
         "encoding": "int",
         "min": 25,
         "max": 45,
-        "default": 35
+        "default": 35,
+        "multiple_of": 5
       },
       "12": {
         "label": "Recycle Diffclty",
@@ -1609,7 +1611,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "17": {

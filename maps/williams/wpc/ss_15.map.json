@@ -1504,7 +1504,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1674,7 +1674,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "04": {
@@ -1684,7 +1684,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "05": {
@@ -1695,7 +1695,7 @@
         "min": 0,
         "max": 99,
         "default": 5,
-        "suffix": " MINUTES",
+        "units": "minutes",
         "special_values": {
           "0": "Off"
         }
@@ -1789,7 +1789,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "15": {
@@ -1960,7 +1960,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "32": {
@@ -1970,7 +1970,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "33": {
@@ -1980,7 +1980,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       }
     }

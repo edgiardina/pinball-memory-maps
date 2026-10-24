@@ -1195,7 +1195,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1468,6 +1468,7 @@
         "min": 0,
         "max": 15,
         "default": 12,
+        "multiple_of": 3,
         "special_values": {
           "0": "No Ex. Ball"
         }
@@ -1480,6 +1481,7 @@
         "min": 21,
         "max": 36,
         "default": 30,
+        "multiple_of": 3,
         "special_values": {
           "21": "No Ex. Ball"
         }

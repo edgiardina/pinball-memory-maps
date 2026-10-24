@@ -1444,7 +1444,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1614,7 +1614,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "04": {
@@ -1624,7 +1624,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "05": {
@@ -1678,7 +1678,7 @@
         "min": 0,
         "max": 15,
         "default": 9,
-        "suffix": " SEC",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1691,7 +1691,7 @@
         "min": 0,
         "max": 15,
         "default": 9,
-        "suffix": " SEC",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1704,7 +1704,7 @@
         "min": 0,
         "max": 15,
         "default": 7,
-        "suffix": " SEC",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1737,7 +1737,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "15": {
@@ -1878,7 +1878,7 @@
       },
       "29": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
           "Value names left out: this ROM's choice lists do not match its screens."
         ],
         "label": "German Speech",
@@ -1887,7 +1887,7 @@
         "default": 0
       },
       "30": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Pit Record",
         "start": 7347,
         "length": 2,
@@ -1898,8 +1898,8 @@
       },
       "31": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux Grand",
         "start": 7349,
@@ -1911,8 +1911,8 @@
       },
       "32": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux HSTD 1",
         "start": 7351,
@@ -1924,8 +1924,8 @@
       },
       "33": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux HSTD 2",
         "start": 7353,
@@ -1937,8 +1937,8 @@
       },
       "34": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux HSTD 3",
         "start": 7355,
@@ -1950,8 +1950,8 @@
       },
       "35": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux HSTD 4",
         "start": 7357,

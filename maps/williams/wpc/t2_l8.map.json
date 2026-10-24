@@ -1206,7 +1206,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1353,7 +1353,7 @@
         "min": 0,
         "max": 10,
         "default": 3,
-        "suffix": " %",
+        "suffix": "%",
         "special_values": {
           "0": "Off"
         }
@@ -1366,7 +1366,7 @@
         "min": 0,
         "max": 35,
         "default": 10,
-        "suffix": " %",
+        "suffix": "%",
         "special_values": {
           "0": "Off"
         }
@@ -1378,7 +1378,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "04": {
@@ -1388,7 +1388,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "05": {
@@ -1443,7 +1443,7 @@
         "min": 5,
         "max": 99,
         "default": 11,
-        "suffix": " secs"
+        "units": "seconds"
       },
       "10": {
         "label": "Three Bank Timer",
@@ -1453,7 +1453,7 @@
         "min": 5,
         "max": 99,
         "default": 15,
-        "suffix": " secs"
+        "units": "seconds"
       },
       "11": {
         "label": "Hurry Up Timer",
@@ -1463,7 +1463,7 @@
         "min": 7,
         "max": 99,
         "default": 15,
-        "suffix": " secs"
+        "units": "seconds"
       },
       "12": {
         "label": "Payback Timer",
@@ -1473,7 +1473,7 @@
         "min": 10,
         "max": 99,
         "default": 20,
-        "suffix": " secs"
+        "units": "seconds"
       },
       "13": {
         "label": "Jackpot Timer",
@@ -1483,7 +1483,7 @@
         "min": 8,
         "max": 99,
         "default": 12,
-        "suffix": " secs"
+        "units": "seconds"
       },
       "14": {
         "label": "Millions Plus",
@@ -1492,7 +1492,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "15": {
@@ -1503,7 +1503,7 @@
         "min": 0,
         "max": 120,
         "default": 0,
-        "suffix": " secs",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1515,7 +1515,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "17": {
@@ -1525,7 +1525,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "18": {
@@ -1535,7 +1535,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "19": {
@@ -1545,7 +1545,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "20": {
@@ -1555,7 +1555,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1565,7 +1565,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       }
     }

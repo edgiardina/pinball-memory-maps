@@ -1250,7 +1250,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1397,7 +1397,7 @@
         "min": 1,
         "max": 99,
         "default": 20,
-        "suffix": " SEC"
+        "units": "seconds"
       },
       "02": {
         "label": "Right Ramp Time",
@@ -1407,7 +1407,7 @@
         "min": 1,
         "max": 99,
         "default": 20,
-        "suffix": " SEC"
+        "units": "seconds"
       },
       "03": {
         "label": "Ramp Open Start",
@@ -1435,7 +1435,7 @@
         "min": 1,
         "max": 99,
         "default": 5,
-        "suffix": " SEC"
+        "units": "seconds"
       },
       "06": {
         "label": "Combo 2nd Timer",
@@ -1445,7 +1445,7 @@
         "min": 1,
         "max": 99,
         "default": 5,
-        "suffix": " SEC"
+        "units": "seconds"
       },
       "07": {
         "label": "Reload Timer",
@@ -1455,7 +1455,7 @@
         "min": 1,
         "max": 99,
         "default": 20,
-        "suffix": " SEC"
+        "units": "seconds"
       },
       "08": {
         "label": "Mid. Ramp Timer",
@@ -1465,7 +1465,7 @@
         "min": 5,
         "max": 99,
         "default": 6,
-        "suffix": " SEC"
+        "units": "seconds"
       },
       "09": {
         "label": "Extra Ball Pct",
@@ -1475,7 +1475,7 @@
         "min": 1,
         "max": 99,
         "default": 20,
-        "suffix": " %"
+        "suffix": "%"
       },
       "10": {
         "label": "Jackpot Lit Pct",
@@ -1485,7 +1485,7 @@
         "min": 1,
         "max": 99,
         "default": 15,
-        "suffix": " %"
+        "suffix": "%"
       },
       "11": {
         "label": "Random Award",
@@ -1528,7 +1528,7 @@
         "min": 1,
         "max": 10,
         "default": 6,
-        "suffix": " JEWELS"
+        "suffix": " Jewels"
       },
       "15": {
         "label": "Millions Timer",
@@ -1538,7 +1538,7 @@
         "min": 5,
         "max": 99,
         "default": 30,
-        "suffix": " SEC"
+        "units": "seconds"
       },
       "16": {
         "label": "Enable Lock",
@@ -1578,7 +1578,7 @@
         "default": 0,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "20": {
@@ -1589,7 +1589,7 @@
         "min": 1,
         "max": 99,
         "default": 7,
-        "suffix": " %"
+        "suffix": "%"
       },
       "21": {
         "label": "Special Lt. After",
@@ -1599,7 +1599,7 @@
         "min": 1,
         "max": 9,
         "default": 2,
-        "suffix": " SHP SUNK"
+        "suffix": " Shp Sunk"
       },
       "22": {
         "_notes": "The value shows after the prefix \"LEVEL\".",
@@ -1638,7 +1638,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "26": {
@@ -1648,7 +1648,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "27": {
@@ -1668,7 +1668,7 @@
         "min": 5,
         "max": 99,
         "default": 30,
-        "suffix": " SEC"
+        "units": "seconds"
       },
       "29": {
         "label": "Ball Saver",
@@ -1678,7 +1678,7 @@
         "min": 0,
         "max": 30,
         "default": 7,
-        "suffix": " SEC",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1691,7 +1691,7 @@
         "min": 0,
         "max": 99,
         "default": 60,
-        "suffix": " SEC",
+        "units": "seconds",
         "special_values": {
           "0": "Off"
         }
@@ -1708,23 +1708,20 @@
       },
       "32": {
         "label": "Sinkship Start",
-        "start": 7161,
-        "length": 2,
-        "encoding": "int",
-        "min": 0,
-        "max": 8,
+        "start": 7162,
+        "encoding": "enum",
         "default": 4,
-        "special_values": {
-          "0": "All Off",
-          "1": "S",
-          "2": "Si",
-          "3": "Sin",
-          "4": "Sink",
-          "5": "Sink S",
-          "6": "Sink Sh",
-          "7": "Sink Shi",
-          "8": "Sink Ship"
-        }
+        "values": [
+          "All Off",
+          "S",
+          "Si",
+          "Sin",
+          "Sink",
+          "Sink S",
+          "Sink Sh",
+          "Sink Shi",
+          "Sink Ship"
+        ]
       },
       "33": {
         "label": "Ship Sunk Backup",
@@ -1753,7 +1750,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       }
     }

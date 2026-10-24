@@ -1319,7 +1319,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1535,32 +1535,32 @@
       "07": {
         "label": "Q.Draw Difficulty",
         "start": 7254,
-        "length": 1,
-        "encoding": "int",
+        "encoding": "enum",
         "min": 1,
         "max": 5,
         "default": 1,
-        "special_values": {
-          "1": "Ex. Easy",
-          "2": "Easy",
-          "3": "Medium",
-          "4": "Hard",
-          "5": "Ex. Hard"
-        }
+        "values": [
+          "n/a",
+          "Ex. Easy",
+          "Easy",
+          "Medium",
+          "Hard",
+          "Ex. Hard"
+        ]
       },
       "08": {
         "label": "Light Q.Drw Diff.",
         "start": 7256,
-        "length": 1,
-        "encoding": "int",
+        "encoding": "enum",
         "min": 1,
         "max": 3,
         "default": 1,
-        "special_values": {
-          "1": "Easy",
-          "2": "Medium",
-          "3": "Hard"
-        }
+        "values": [
+          "n/a",
+          "Easy",
+          "Medium",
+          "Hard"
+        ]
       },
       "09": {
         "label": "Q.Draws At Start",
@@ -1586,16 +1586,16 @@
       "11": {
         "label": "Starting Rank",
         "start": 7262,
-        "length": 1,
-        "encoding": "int",
+        "encoding": "enum",
         "min": 1,
         "max": 3,
         "default": 1,
-        "special_values": {
-          "1": "Stranger",
-          "2": "Partner",
-          "3": "Deputy"
-        }
+        "values": [
+          "n/a",
+          "Stranger",
+          "Partner",
+          "Deputy"
+        ]
       },
       "12": {
         "label": "Combos For Star",

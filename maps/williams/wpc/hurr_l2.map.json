@@ -1115,7 +1115,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1251,7 +1251,7 @@
         "min": 1,
         "max": 50,
         "default": 25,
-        "suffix": " %"
+        "suffix": "%"
       },
       "02": {
         "label": "Pct. Special",
@@ -1261,7 +1261,7 @@
         "min": 1,
         "max": 20,
         "default": 4,
-        "suffix": " %"
+        "suffix": "%"
       },
       "03": {
         "_notes": "The value shows after the prefix \"BONUS\".",
@@ -1285,7 +1285,7 @@
         "min": 0,
         "max": 6,
         "default": 3,
-        "suffix": " M. BALLS",
+        "suffix": " M. Balls",
         "special_values": {
           "0": "Disabled"
         }
@@ -1320,7 +1320,7 @@
         "min": 5,
         "max": 40,
         "default": 18,
-        "suffix": " SEC."
+        "units": "seconds"
       },
       "08": {
         "label": "Hurricane Diff.",
@@ -1341,7 +1341,7 @@
         "min": 5,
         "max": 40,
         "default": 13,
-        "suffix": " SEC."
+        "units": "seconds"
       },
       "10": {
         "label": "Hurricane Mill.",
@@ -1351,7 +1351,7 @@
         "min": 3,
         "max": 13,
         "default": 3,
-        "suffix": " RAMPS"
+        "suffix": " Ramps"
       },
       "11": {
         "label": "Comet Diff.",
@@ -1372,22 +1372,23 @@
         "min": 5,
         "max": 40,
         "default": 10,
-        "suffix": " SEC."
+        "units": "seconds"
       },
       "13": {
         "label": "Comet Start",
         "start": 7116,
-        "length": 1,
-        "encoding": "int",
-        "min": 1,
+        "encoding": "enum",
+        "min": 2,
         "max": 5,
         "default": 2,
-        "special_values": {
-          "2": "50,000",
-          "3": "100,000",
-          "4": "200,000",
-          "5": "25,000"
-        }
+        "values": [
+          "n/a",
+          "n/a",
+          "50,000",
+          "100,000",
+          "200,000",
+          "25,000"
+        ]
       },
       "14": {
         "label": "Palace Timer",
@@ -1397,7 +1398,7 @@
         "min": 5,
         "max": 40,
         "default": 8,
-        "suffix": " SEC."
+        "units": "seconds"
       },
       "15": {
         "label": "Palace Start",

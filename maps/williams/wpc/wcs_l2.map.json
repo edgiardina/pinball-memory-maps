@@ -1345,7 +1345,7 @@
         "default": 1,
         "values": [
           "Off",
-          "ON"
+          "On"
         ]
       },
       "21": {
@@ -1501,16 +1501,16 @@
       "02": {
         "label": "Buy In Count",
         "start": 7224,
-        "length": 1,
-        "encoding": "int",
+        "encoding": "enum",
         "min": 1,
         "max": 3,
         "default": 3,
-        "special_values": {
-          "1": "1 Buy In",
-          "2": "2 Buy Ins",
-          "3": "3 Buy Ins"
-        }
+        "values": [
+          "n/a",
+          "1 Buy In",
+          "2 Buy Ins",
+          "3 Buy Ins"
+        ]
       },
       "03": {
         "label": "Starting Rank",
@@ -1849,7 +1849,7 @@
         ]
       },
       "33": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Tor Speech",
         "start": 7286,
         "encoding": "enum",
@@ -1869,7 +1869,7 @@
         "default": 12
       },
       "35": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Backup Goal Chmp.",
         "start": 7289,
         "length": 2,
@@ -1879,7 +1879,7 @@
         "default": 6
       },
       "36": {
-        "_notes": "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "Goal Champ Cred.",
         "start": 7291,
         "length": 2,
@@ -1890,8 +1890,8 @@
       },
       "37": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux HSTD 1",
         "start": 7293,
@@ -1903,8 +1903,8 @@
       },
       "38": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux HSTD 2",
         "start": 7295,
@@ -1916,8 +1916,8 @@
       },
       "39": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux HSTD 3",
         "start": 7297,
@@ -1929,8 +1929,8 @@
       },
       "40": {
         "_notes": [
-          "Inferred from the ROM adjustment table: the game menu does not show this item, so the label, address, range and values were not seen on screen.",
-          "BCD encoding is a guess from the ROM range digits."
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
         ],
         "label": "Bckup Aux HSTD 4",
         "start": 7299,
