@@ -1369,10 +1369,6 @@
         "suffix": "%"
       },
       "05": {
-        "_notes": [
-          "Address not confirmed by a single change: it follows the spacing of the other items.",
-          "Only the factory screen was read: the range comes from the ROM table."
-        ],
         "label": "Ramp Timer",
         "start": 7107,
         "length": 2,
@@ -1394,10 +1390,7 @@
         "units": "seconds"
       },
       "07": {
-        "_notes": [
-          "Address not confirmed by a single change: it follows the spacing of the other items.",
-          "Only the factory screen was read: the range comes from the ROM table."
-        ],
+        "_notes": "Maximum from the ROM table: not seen on screen.",
         "label": "Stretch Truth",
         "start": 7111,
         "length": 2,
@@ -1408,19 +1401,18 @@
         "units": "seconds"
       },
       "08": {
-        "_notes": [
-          "Values seen on screen, in this order: SLOW, FAST, FAST.",
-          "Address not confirmed by a single change: it follows the spacing of the other items.",
-          "Values seen in order, but not tied to stored numbers."
-        ],
         "label": "Feed Frenzy Time",
         "start": 7114,
         "encoding": "enum",
-        "default": 0
+        "default": 0,
+        "values": [
+          "Slow",
+          "Fast"
+        ]
       },
       "09": {
         "_notes": [
-          "The screen did not confirm the values 4, 5.",
+          "The screen did not confirm the value 5.",
           "Not every value was seen on screen."
         ],
         "label": "Captv. Ball Lites",
@@ -1432,18 +1424,19 @@
         "default": 1
       },
       "10": {
-        "_notes": [
-          "Values seen on screen, in this order: MEDIUM, HARD, EASY, HARD.",
-          "Values seen in order, but not tied to stored numbers."
-        ],
         "label": "Lock Difficulty",
         "start": 7118,
         "encoding": "enum",
-        "default": 1
+        "default": 1,
+        "values": [
+          "Easy",
+          "Medium",
+          "Hard"
+        ]
       },
       "11": {
         "_notes": [
-          "Display not decoded: the screen showed 20 SEC., 6 SEC., 7 SEC., 8 SEC..",
+          "The screen did not confirm the value 4.",
           "Minimum from the ROM table: not seen on screen."
         ],
         "label": "Ball Save Time",
@@ -1457,7 +1450,7 @@
       },
       "12": {
         "_notes": [
-          "The screen did not confirm the values 10.",
+          "The screen did not confirm the value 10.",
           "Not every value was seen on screen."
         ],
         "label": "Special Lites At",

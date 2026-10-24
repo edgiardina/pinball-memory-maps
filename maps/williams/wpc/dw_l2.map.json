@@ -1998,7 +1998,7 @@
         ]
       },
       "29": {
-        "_notes": "Display not decoded: the screen showed 00, 2,000,000, 700,000, 750,000, 800,000.",
+        "_notes": "Display not decoded: stored value -> screen: 0 -> 00, 9 -> 700,000, 10 -> 750,000, 11 -> 800,000, 17 -> 2,000,000.",
         "label": "Transmat Spotdoc.",
         "start": 7257,
         "length": 2,

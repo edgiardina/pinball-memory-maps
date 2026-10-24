@@ -1269,16 +1269,12 @@
     },
     "A.2 Feature Adjustments": {
       "01": {
-        "_notes": [
-          "Display not decoded: the screen showed 05, 06, 07, 09.",
-          "Maximum from the ROM table: not seen on screen."
-        ],
         "label": "Ex. Ball Count",
         "start": 7101,
         "length": 2,
         "encoding": "int",
         "min": 5,
-        "max": 30,
+        "max": 9,
         "default": 6
       },
       "02": {
