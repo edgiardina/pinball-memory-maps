@@ -1447,15 +1447,12 @@
         "label": "Buy Extra Ball",
         "start": 7118,
         "encoding": "enum",
-        "min": 1,
-        "max": 4,
         "default": 1,
         "values": [
-          "n/a",
+          "Off",
           "1/2 Cred.",
           "n/a",
-          "1 Credit",
-          "Off"
+          "1 Credit"
         ]
       },
       "06": {
@@ -1609,17 +1606,13 @@
         "label": "Default E.B. Blast",
         "start": 7146,
         "encoding": "enum",
-        "min": 2,
-        "max": 6,
         "default": 2,
         "values": [
-          "n/a",
-          "n/a",
+          "EB Blast 5",
+          "EB Blast 6",
           "EB Blast 7",
           "EB Blast 8",
-          "EB Blast 9",
-          "EB Blast 5",
-          "EB Blast 6"
+          "EB Blast 9"
         ]
       },
       "20": {

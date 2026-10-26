@@ -1479,7 +1479,7 @@
         }
       },
       "04": {
-        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+        "_notes": "Shown in the menu only when Ball Saves (A.2 03) is not Off.",
         "label": "Ball Save Time",
         "start": 7245,
         "length": 2,

@@ -1307,16 +1307,12 @@
         "default": 1
       },
       "05": {
-        "_notes": [
-          "The screen did not confirm the values 0, 1.",
-          "Not every value was seen on screen."
-        ],
         "label": "Ballsave Time",
         "start": 7109,
         "length": 2,
         "encoding": "int",
         "min": 0,
-        "max": 10,
+        "max": 15,
         "default": 5,
         "units": "seconds"
       },
@@ -1401,15 +1397,12 @@
         "units": "seconds"
       },
       "14": {
-        "_notes": [
-          "Minimum from the ROM table: not seen on screen.",
-          "Maximum from the ROM table: not seen on screen."
-        ],
+        "_notes": "Steps of 5 from 160,000,000 to 995,000,000. One step down from 160,000,000 gives 999,000,000.",
         "label": "Super Grnd Champ.",
         "start": 7127,
         "length": 2,
         "encoding": "bcd",
-        "min": 250,
+        "min": 160,
         "max": 999,
         "default": 350,
         "scale": 1000000

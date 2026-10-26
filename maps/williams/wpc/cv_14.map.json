@@ -1860,7 +1860,7 @@
         ]
       },
       "32": {
-        "_notes": "Minimum from the ROM table: not seen on screen.",
+        "_notes": "With Min. Vol. Override (A.1 28) at No, the menu offers 20-31. At Yes, it offers 0-31.",
         "label": "\"Knocker\" Volume",
         "start": 7393,
         "length": 2,
@@ -1883,14 +1883,11 @@
         "label": "Gameover Kickout",
         "start": 7398,
         "encoding": "enum",
-        "min": 1,
-        "max": 3,
         "default": 1,
         "values": [
-          "n/a",
+          "Never",
           "Delayed",
-          "Instant",
-          "Never"
+          "Instant"
         ]
       }
     }

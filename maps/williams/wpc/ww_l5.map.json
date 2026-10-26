@@ -1454,7 +1454,6 @@
         ]
       },
       "07": {
-        "_notes": "Minimum from the ROM table: not seen on screen.",
         "label": "Hurry Up Start",
         "start": 7113,
         "length": 2,

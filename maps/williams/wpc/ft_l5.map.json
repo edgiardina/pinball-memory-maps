@@ -1411,10 +1411,6 @@
         ]
       },
       "09": {
-        "_notes": [
-          "The screen did not confirm the value 5.",
-          "Not every value was seen on screen."
-        ],
         "label": "Captv. Ball Lites",
         "start": 7115,
         "length": 2,
@@ -1449,10 +1445,6 @@
         "units": "seconds"
       },
       "12": {
-        "_notes": [
-          "The screen did not confirm the value 10.",
-          "Not every value was seen on screen."
-        ],
         "label": "Special Lites At",
         "start": 7121,
         "length": 2,

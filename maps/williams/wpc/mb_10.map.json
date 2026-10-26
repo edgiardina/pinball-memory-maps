@@ -1357,6 +1357,16 @@
           "0": "Off"
         }
       },
+      "02": {
+        "_notes": "Shown in the menu only when Ball Saves (A.2 01) is not Off.",
+        "label": "Ball Save Time",
+        "start": 7123,
+        "length": 2,
+        "encoding": "int",
+        "min": 3,
+        "max": 15,
+        "default": 3
+      },
       "03": {
         "label": "Ex. Ball Percnt.",
         "start": 7125,

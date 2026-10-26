@@ -1439,7 +1439,10 @@
         ]
       },
       "02": {
-        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+        "_notes": [
+          "Shown in the menu only when Buy Extra Ball (A.2 01) is not Off.",
+          "Range from the ROM table: not seen on screen."
+        ],
         "label": "Buy In Count",
         "start": 7337,
         "length": 2,

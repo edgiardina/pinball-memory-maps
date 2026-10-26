@@ -1872,10 +1872,6 @@
         "units": "seconds"
       },
       "21": {
-        "_notes": [
-          "Values left out: not tied to stored numbers. The factory screen shows \"01\".",
-          "Not every value was seen on screen."
-        ],
         "label": "Path Start Level",
         "start": 7429,
         "length": 2,

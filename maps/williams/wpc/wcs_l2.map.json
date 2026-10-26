@@ -1603,7 +1603,7 @@
         "default": 0
       },
       "12": {
-        "label": "La Tkt. In Order",
+        "label": "L.A. Tkt. In Order",
         "start": 7243,
         "length": 2,
         "encoding": "int",
@@ -1638,7 +1638,7 @@
           "Holland",
           "Canada",
           "Austria",
-          "Usa",
+          "USA",
           "Brazil",
           "Argentina",
           "Mexico",

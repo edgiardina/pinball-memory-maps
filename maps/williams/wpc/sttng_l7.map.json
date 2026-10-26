@@ -1638,16 +1638,15 @@
         "label": "Buy In Count",
         "start": 7122,
         "encoding": "enum",
-        "min": 3,
-        "max": 5,
+        "min": 2,
+        "max": 4,
         "default": 3,
         "values": [
           "n/a",
           "n/a",
-          "n/a",
+          "2 Buy Ins",
           "3 Buy Ins",
-          "Unlimited",
-          "2 Buy Ins"
+          "Unlimited"
         ]
       },
       "12": {

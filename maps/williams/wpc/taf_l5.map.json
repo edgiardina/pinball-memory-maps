@@ -1461,7 +1461,6 @@
         ]
       },
       "13": {
-        "_notes": "Minimum from the ROM table: not seen on screen.",
         "label": "Mil. Plus Max.",
         "start": 7123,
         "length": 2,
@@ -1569,7 +1568,6 @@
         ]
       },
       "24": {
-        "_notes": "Address not confirmed by a single change: it follows the spacing of the other items.",
         "label": "Green Lock Lamp",
         "start": 7146,
         "encoding": "enum",

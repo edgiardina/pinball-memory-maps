@@ -1867,7 +1867,6 @@
         "default": 30
       },
       "13": {
-        "_notes": "Minimum from the ROM table: not seen on screen.",
         "label": "Hurry Up E.B. 1",
         "start": 7251,
         "length": 2,
