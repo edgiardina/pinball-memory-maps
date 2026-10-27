@@ -1532,7 +1532,7 @@
         }
       },
       "02": {
-        "_notes": "Minimum from the ROM table: not seen on screen.",
+        "_notes": "Shown in the menu only when Max. E.B. Count (A.1 03) is not 0 (No Ex. Ball).",
         "label": "Extraball Percnt",
         "start": 7103,
         "length": 2,
