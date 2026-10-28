@@ -2,16 +2,18 @@
   "_notes": [
     "Compiled by Tom Collins using template-wpc.json.",
     "2025-07-07 Tom Collins added automated audits",
-    "Split from congo_21.map.json: the Feature Adjustments of congo_11 are different from congo_21 (pinball-memory-maps#201)."
+    "Split from congo_21.map.json: the Feature Adjustments of congo_11, congo_13, congo_20s10k are at other addresses than congo_21 (pinball-memory-maps#201)."
   ],
   "_fileformat": 0.9,
   "_metadata": {
-    "version": 11,
+    "version": 12,
     "copyright": "Copyright (C) 2025 by Tom Collins <tom@tomlogic.com>",
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "williams-wpc-12K",
     "roms": [
-      "congo_11"
+      "congo_11",
+      "congo_13",
+      "congo_20s10k"
     ],
     "validation": {
       "checksum": [
@@ -1576,6 +1578,16 @@
           "1 Credit"
         ]
       },
+      "19": {
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+        "label": "Buy In Count",
+        "start": 7273,
+        "length": 2,
+        "encoding": "int",
+        "min": 1,
+        "max": 4,
+        "default": 1
+      },
       "20": {
         "label": "Novice Mode",
         "start": 7276,
@@ -1609,6 +1621,39 @@
           "No",
           "Yes"
         ]
+      },
+      "23": {
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+        "label": "Diamd Champ Cred.",
+        "start": 7281,
+        "length": 2,
+        "encoding": "int",
+        "min": 0,
+        "max": 3,
+        "default": 1
+      },
+      "24": {
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+        "label": "Def. Diamd Champ",
+        "start": 7283,
+        "length": 2,
+        "encoding": "int",
+        "min": 1,
+        "max": 200,
+        "default": 100
+      },
+      "25": {
+        "_notes": [
+          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
+          "BCD encoding is a guess from the digits of the ROM range."
+        ],
+        "label": "Backup Null Champ",
+        "start": 7285,
+        "length": 2,
+        "encoding": "bcd",
+        "min": 100,
+        "max": 100,
+        "default": 100
       }
     }
   },

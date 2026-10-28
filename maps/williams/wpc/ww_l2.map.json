@@ -2,8 +2,9 @@
   "_notes": [
     "Original map compiled by Mike Metzger.",
     "WPC 50018, SYS 2.48 REV 0.2 (ww_l2)",
+    "WPC 50018, SYS 2.43 REV 13.8 (ww_p8)",
     "2025-07-07 Tom Collins added automated audits",
-    "Split from ww_l5.map.json: the Feature Adjustments of ww_d2, ww_l2 are different from ww_l5 (pinball-memory-maps#201)."
+    "Split from ww_l5.map.json: the Feature Adjustments of ww_d2, ww_l2, ww_p8, ww_p9 are at other addresses than ww_l5 (pinball-memory-maps#201)."
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -16,7 +17,9 @@
     "platform": "williams-wpc-8K",
     "roms": [
       "ww_d2",
-      "ww_l2"
+      "ww_l2",
+      "ww_p8",
+      "ww_p9"
     ],
     "validation": {
       "checksum": [

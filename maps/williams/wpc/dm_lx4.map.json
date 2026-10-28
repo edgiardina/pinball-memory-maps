@@ -6,15 +6,13 @@
   ],
   "_fileformat": 0.9,
   "_metadata": {
-    "version": 12,
+    "version": 13,
     "copyright": "Copyright (C) 2015, 2025 by Tom Collins <tom@tomlogic.com>",
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "williams-wpc-12K",
     "roms": [
-      "dm_da1",
       "dm_dx3",
       "dm_dx4",
-      "dm_la1",
       "dm_lx3",
       "dm_lx4",
       "dm_lx4c"
