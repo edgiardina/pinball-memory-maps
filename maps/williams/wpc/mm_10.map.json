@@ -8,7 +8,7 @@
   ],
   "_fileformat": 0.9,
   "_metadata": {
-    "version": 10,
+    "version": 11,
     "copyright": [
       "Copyright (C) 2016 by Tom Collins <tom@tomlogic.com>",
       "Copyright (C) 2025 by Tom Collins <tom@scorbit.io>"
@@ -2106,12 +2106,17 @@
       "36": {
         "_notes": [
           "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
-          "Value names left out: this ROM's choice lists do not match its screens."
+          "Value names from totan_14 (A.2 01), which has the same ROM choice list."
         ],
         "label": "Buy Extra Ball",
         "start": 7298,
         "encoding": "enum",
-        "default": 0
+        "default": 0,
+        "values": [
+          "Off",
+          "1/2 Cred.",
+          "1 Credit"
+        ]
       },
       "37": {
         "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",

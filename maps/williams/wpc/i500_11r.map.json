@@ -6,7 +6,7 @@
   ],
   "_fileformat": 0.9,
   "_metadata": {
-    "version": 9,
+    "version": 10,
     "copyright": "Copyright (C) 2025 by Tom Collins <tom@tomlogic.com>",
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "williams-wpc-12K",
@@ -1877,14 +1877,15 @@
         ]
       },
       "29": {
-        "_notes": [
-          "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
-          "Value names left out: this ROM's choice lists do not match its screens."
-        ],
+        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
         "label": "German Speech",
         "start": 7346,
         "encoding": "enum",
-        "default": 0
+        "default": 0,
+        "values": [
+          "Off",
+          "On"
+        ]
       },
       "30": {
         "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
