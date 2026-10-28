@@ -4,7 +4,8 @@
     "WPC 50047, SYS 3.62 REV 1.4",
     "v0.2: changed score lengths from 5 to 6",
     "2025-07-07 Tom Collins added automated audits",
-    "Split from totan_14.map.json: the Feature Adjustments of totan_04 are different from totan_14 (pinball-memory-maps#201)."
+    "Split from totan_14.map.json: the Feature Adjustments of totan_04 are different from totan_14 (pinball-memory-maps#201).",
+    "The Standard Adjustments items 07, 09, 10, 11 and 12 of totan_04 are different from totan_14: other factory values, ranges or languages (pinball-memory-maps#202)."
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -1130,8 +1131,8 @@
         "start": 7171,
         "encoding": "bcd",
         "length": 2,
-        "min": 0,
-        "max": 2500,
+        "min": 100,
+        "max": 3000,
         "default": 800,
         "scale": 10000
       },
@@ -1149,8 +1150,8 @@
         "start": 7175,
         "encoding": "bcd",
         "length": 2,
-        "min": 0,
-        "max": 2500,
+        "min": 100,
+        "max": 3000,
         "default": 800,
         "scale": 10000,
         "special_values": {
@@ -1163,12 +1164,13 @@
         "encoding": "bcd",
         "length": 2,
         "min": 0,
-        "max": 2500,
+        "max": 3000,
         "default": 0,
         "scale": 10000,
         "special_values": {
           "0": "OFF"
-        }
+        },
+        "_notes": "The ROM table gives 100-3000. The factory value is 0 (OFF)."
       },
       "11": {
         "label": "Replay Level 3",
@@ -1176,12 +1178,13 @@
         "encoding": "bcd",
         "length": 2,
         "min": 0,
-        "max": 2500,
+        "max": 3000,
         "default": 0,
         "scale": 10000,
         "special_values": {
           "0": "OFF"
-        }
+        },
+        "_notes": "The ROM table gives 100-3000. The factory value is 0 (OFF)."
       },
       "12": {
         "label": "Replay Level 4",
@@ -1189,12 +1192,13 @@
         "encoding": "bcd",
         "length": 2,
         "min": 0,
-        "max": 2500,
+        "max": 3000,
         "default": 0,
         "scale": 10000,
         "special_values": {
           "0": "OFF"
-        }
+        },
+        "_notes": "The ROM table gives 100-3000. The factory value is 0 (OFF)."
       },
       "13": {
         "label": "Replay Boost",

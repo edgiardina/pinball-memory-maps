@@ -1,7 +1,8 @@
 {
   "_notes": [
     "Compiled by Tom Collins for initial development/testing purposes.",
-    "Split from dm_lx4.map.json: the Feature Adjustments of dm_da1, dm_la1 are different from dm_lx4 (pinball-memory-maps#201)."
+    "Split from dm_lx4.map.json: the Feature Adjustments of dm_da1, dm_la1 are different from dm_lx4 (pinball-memory-maps#201).",
+    "The Standard Adjustments items 07, 09 and 13 of dm_la1 are different from dm_lx4: other factory values, ranges or languages (pinball-memory-maps#202)."
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -379,7 +380,7 @@
         "min": 300,
         "max": 900,
         "multiple_of": 5,
-        "default": 450,
+        "default": 350,
         "suffix": "M"
       },
       "08": {
@@ -399,7 +400,7 @@
         "min": 0,
         "max": 900,
         "multiple_of": 10,
-        "default": 450,
+        "default": 350,
         "suffix": "M",
         "special_values": {
           "0": "OFF"
@@ -453,9 +454,9 @@
         "encoding": "bcd",
         "length": 2,
         "min": 0,
-        "max": 200,
+        "max": 100,
         "multiple_of": 5,
-        "default": 75,
+        "default": 50,
         "suffix": "M",
         "special_values": {
           "0": "OFF"

@@ -6,7 +6,8 @@
     "WPC 50024, SYS 3.34 REV 0.5 (rs_la5, rs_lx5)",
     "2025-07-07 Tom Collins added automated audits",
     "unknown location for audit 'B.4 30 BLAST FOR E.B.', single-byte value",
-    "Split from rs_l6.map.json: the Feature Adjustments of rs_dx2, rs_lx2 are different from rs_l6 (pinball-memory-maps#201)."
+    "Split from rs_l6.map.json: the Feature Adjustments of rs_dx2, rs_lx2 is different from rs_l6 (pinball-memory-maps#201).",
+    "The Standard Adjustments item 21 of rs_lx2 is different from rs_l6: other factory values, ranges or languages (pinball-memory-maps#202)."
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -1259,7 +1260,10 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "English"
+          "English",
+          "Deutsch",
+          "Francais",
+          "Espanol"
         ]
       },
       "22": {

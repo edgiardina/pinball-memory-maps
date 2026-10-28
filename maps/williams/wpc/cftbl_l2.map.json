@@ -2,7 +2,8 @@
   "_notes": [
     "Compiled by Tom Collins using template-wpc.json.",
     "2025-07-07 Tom Collins added automated audits",
-    "Split from cftbl_l4.map.json: the Feature Adjustments of cftbl_d2, cftbl_l2 are different from cftbl_l4 (pinball-memory-maps#201)."
+    "Split from cftbl_l4.map.json: the Feature Adjustments of cftbl_d2, cftbl_l2 are different from cftbl_l4 (pinball-memory-maps#201).",
+    "The Standard Adjustments items 07, 09 and 21 of cftbl_l2 are different from cftbl_l4: other factory values, ranges or languages (pinball-memory-maps#202)."
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -1042,7 +1043,7 @@
         "length": 2,
         "min": 50,
         "max": 850,
-        "default": 200,
+        "default": 300,
         "scale": 1000000
       },
       "08": {
@@ -1061,7 +1062,7 @@
         "length": 2,
         "min": 0,
         "max": 700,
-        "default": 200,
+        "default": 300,
         "scale": 1000000,
         "special_values": {
           "0": "OFF"
@@ -1198,7 +1199,9 @@
         "encoding": "enum",
         "default": 0,
         "values": [
-          "English"
+          "English",
+          "Deutsch",
+          "Francais"
         ]
       },
       "22": {

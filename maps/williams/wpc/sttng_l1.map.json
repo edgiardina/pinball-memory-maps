@@ -3,7 +3,8 @@
     "Compiled by Tom Collins using template-wpc.json.",
     "WPC 50023, SYS 3.08 REV 0.7",
     "2025-07-07 Tom Collins added automated audits",
-    "Split from sttng_l7.map.json: the Feature Adjustments of sttng_d1, sttng_l1 are different from sttng_l7 (pinball-memory-maps#201)."
+    "Split from sttng_l7.map.json: the Feature Adjustments of sttng_d1, sttng_l1 are different from sttng_l7 (pinball-memory-maps#201).",
+    "The Standard Adjustments item 13 of sttng_l1 is different from sttng_l7: other factory values, ranges or languages (pinball-memory-maps#202)."
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -1287,8 +1288,8 @@
         "encoding": "bcd",
         "length": 2,
         "min": 0,
-        "max": 150,
-        "default": 50,
+        "max": 50,
+        "default": 25,
         "scale": 1000000
       },
       "14": {

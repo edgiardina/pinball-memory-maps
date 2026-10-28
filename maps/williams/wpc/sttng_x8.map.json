@@ -3,7 +3,8 @@
     "Compiled by Tom Collins using template-wpc.json.",
     "WPC 50023, SYS 3.08 REV 0.7",
     "2025-07-07 Tom Collins added automated audits",
-    "Split from sttng_l7.map.json: the Feature Adjustments of sttng_x8 are different from sttng_l7 (pinball-memory-maps#201)."
+    "Split from sttng_l7.map.json: the Feature Adjustments of sttng_x8 are different from sttng_l7 (pinball-memory-maps#201).",
+    "The Standard Adjustments items 05, 07, 09, 13, 14, 28, 29 and 32 of sttng_x8 are different from sttng_l7: other factory values, ranges or languages (pinball-memory-maps#202)."
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -1193,7 +1194,7 @@
         "label": "Replay System",
         "start": 6952,
         "encoding": "enum",
-        "default": 0,
+        "default": 1,
         "values": [
           "Auto %",
           "Fixed"
@@ -1215,9 +1216,10 @@
         "encoding": "bcd",
         "length": 2,
         "min": 50,
-        "max": 1500,
+        "max": 5000,
         "default": 450,
-        "scale": 1000000
+        "scale": 1000000,
+        "_notes": "Maximum from the ROM table: not seen on screen."
       },
       "08": {
         "label": "Replay Levels",
@@ -1234,12 +1236,13 @@
         "encoding": "bcd",
         "length": 2,
         "min": 0,
-        "max": 1000,
-        "default": 450,
+        "max": 5000,
+        "default": 1000,
         "scale": 1000000,
         "special_values": {
           "0": "OFF"
-        }
+        },
+        "_notes": "Factory value from NVRAM after a boot: not seen on screen. Maximum from the ROM table: not seen on screen."
       },
       "10": {
         "label": "Replay Level 2",
@@ -1287,14 +1290,15 @@
         "length": 2,
         "min": 0,
         "max": 150,
-        "default": 50,
-        "scale": 1000000
+        "default": 0,
+        "scale": 1000000,
+        "_notes": "Factory value from NVRAM after a boot: not seen on screen."
       },
       "14": {
         "label": "Replay Award",
         "start": 6970,
         "encoding": "enum",
-        "default": 0,
+        "default": 3,
         "values": [
           "Credit",
           "Ticket",
@@ -1441,7 +1445,7 @@
         "label": "Min. Vol. Override",
         "start": 6998,
         "encoding": "enum",
-        "default": 0,
+        "default": 1,
         "values": [
           "No",
           "Yes"
@@ -1454,7 +1458,7 @@
         "length": 2,
         "min": 1,
         "max": 60,
-        "default": 15,
+        "default": 2,
         "suffix": " MINUTES",
         "special_values": {
           "1": "OFF"
@@ -1483,7 +1487,7 @@
         "label": "No Bonus Flips",
         "start": 7006,
         "encoding": "enum",
-        "default": 0,
+        "default": 1,
         "values": [
           "No",
           "Yes"
