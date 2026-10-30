@@ -5,7 +5,7 @@
   ],
   "_fileformat": 0.9,
   "_metadata": {
-    "version": 9,
+    "version": 10,
     "copyright": [
       "Copyright (C) 2015 by Tom Collins <tom@tomlogic.com>",
       "Copyright (C) 2025 by Tom Collins <tom@scorbit.io>"
@@ -590,8 +590,9 @@
         "encoding": "enum",
         "values": [
           "English",
+          "German",
           "French",
-          "German"
+          "Spanish"
         ],
         "default": 0
       },

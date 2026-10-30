@@ -15,8 +15,14 @@
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "williams-wpc-12K",
     "roms": [
+      "rs_da4",
+      "rs_da5",
       "rs_dx4",
-      "rs_lx4"
+      "rs_dx5",
+      "rs_la4",
+      "rs_la5",
+      "rs_lx4",
+      "rs_lx5"
     ],
     "validation": {
       "checksum": [

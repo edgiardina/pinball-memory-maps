@@ -2,7 +2,8 @@
   "_notes": [
     "Compiled by Tom Collins using template-wpc.json.",
     "2025-07-07 Tom Collins added automated audits",
-    "Split from congo_21.map.json: the Feature Adjustments of congo_11, congo_13, congo_20s10k are at other addresses than congo_21 (pinball-memory-maps#201)."
+    "Split from congo_21.map.json: the Feature Adjustments of congo_11, congo_13, congo_20, congo_20s10k are at other addresses than congo_21 (pinball-memory-maps#201).",
+    "WPC 50050, SYS 3.55 REV 2.0 (congo_20)"
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -13,6 +14,7 @@
     "roms": [
       "congo_11",
       "congo_13",
+      "congo_20",
       "congo_20s10k"
     ],
     "validation": {

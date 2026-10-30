@@ -2,7 +2,6 @@
   "_notes": [
     "Compiled by Tom Collins using template-wpc.json.",
     "WPC 20017, SYS 2.48 REV 0.5 (taf_l5)",
-    "WPC 20017, SYS 2.48 REV 0.5 (taf_l5c)",
     "2025-07-07 Tom Collins added automated audits"
   ],
   "_fileformat": 0.9,
@@ -12,8 +11,7 @@
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "williams-wpc-8K",
     "roms": [
-      "taf_l5",
-      "taf_l5c"
+      "taf_l5"
     ],
     "validation": {
       "checksum": [

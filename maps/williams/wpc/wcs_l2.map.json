@@ -5,7 +5,8 @@
     "WPC 50031, SYS 3.21 REV 0.1 (wcs_l1, wcs_la1)",
     "WPC 50031, SYS 3.23 REV 0.2 (wcs_l2, wcs_la2)",
     "WPC 50031, SYS 3.23 REV 3.12 (wcs_l3c)",
-    "2025-07-07 Tom Collins added automated audits"
+    "2025-07-07 Tom Collins added automated audits",
+    "Standard Adjustments on wcs_l3c: 26 Tournament Play has the factory value Yes. 28 Min. Vol. Override has the factory value Yes."
   ],
   "_fileformat": 0.9,
   "_metadata": {

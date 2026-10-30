@@ -3,7 +3,8 @@
     "Compiled by Tom Collins using template-wpc.json.",
     "WPC 20018, SYS 2.50 REV 0.3 (cftbl_l3)",
     "WPC 20018, SYS 2.52 REV 0.4 (cftbl_l4)",
-    "2025-07-07 Tom Collins added automated audits"
+    "2025-07-07 Tom Collins added automated audits",
+    "Standard Adjustments on cftbl_l3: 07 Replay Start has the factory value 300. 09 Replay Level 1 has the factory value 300. 21 Language has the values English, Deutsch, Francais."
   ],
   "_fileformat": 0.9,
   "_metadata": {

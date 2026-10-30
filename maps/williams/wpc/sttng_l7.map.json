@@ -2,7 +2,8 @@
   "_notes": [
     "Compiled by Tom Collins using template-wpc.json.",
     "WPC 50023, SYS 3.08 REV 0.7",
-    "2025-07-07 Tom Collins added automated audits"
+    "2025-07-07 Tom Collins added automated audits",
+    "Standard Adjustments on sttng_l7c: 28 Min. Vol. Override has the factory value Yes."
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -15,13 +16,9 @@
       "sttng_dx",
       "sttng_g7",
       "sttng_h7",
-      "sttng_l3",
       "sttng_l7",
       "sttng_l7c",
       "sttng_la7",
-      "sttng_p5",
-      "sttng_p6",
-      "sttng_p8",
       "sttng_x7"
     ],
     "validation": {

@@ -1,7 +1,6 @@
 {
   "_notes": [
     "Compiled by Tom Collins using template-wpc.json.",
-    "WPC 50050, SYS 3.55 REV 2.0 (congo_20)",
     "WPC 50050, SYS 3.63 REV 2.1 (congo_21)",
     "2025-07-07 Tom Collins added automated audits"
   ],
@@ -12,7 +11,6 @@
     "license": "Open Data Commons Open Database License (ODbL) v1.0",
     "platform": "williams-wpc-12K",
     "roms": [
-      "congo_20",
       "congo_21"
     ],
     "validation": {

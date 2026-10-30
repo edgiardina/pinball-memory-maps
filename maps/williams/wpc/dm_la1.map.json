@@ -482,7 +482,7 @@
           "Credit",
           "Ticket",
           "Ball",
-          "Audit"
+          "Points"
         ],
         "default": 0
       },
@@ -544,8 +544,8 @@
         "encoding": "enum",
         "values": [
           "English",
-          "French",
           "German",
+          "French",
           "Spanish"
         ],
         "default": 0

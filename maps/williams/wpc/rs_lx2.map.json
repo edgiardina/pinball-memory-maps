@@ -7,7 +7,8 @@
     "2025-07-07 Tom Collins added automated audits",
     "unknown location for audit 'B.4 30 BLAST FOR E.B.', single-byte value",
     "Split from rs_l6.map.json: the Feature Adjustments of rs_dx2, rs_lx2 is different from rs_l6 (pinball-memory-maps#201).",
-    "The Standard Adjustments item 21 of rs_lx2 is different from rs_l6: other factory values, ranges or languages (pinball-memory-maps#202)."
+    "The Standard Adjustments item 21 of rs_lx2 is different from rs_l6: other factory values, ranges or languages (pinball-memory-maps#202).",
+    "WPC 50024, SYS 3.29 REV 0.3 (rs_lx3)"
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -17,7 +18,9 @@
     "platform": "williams-wpc-12K",
     "roms": [
       "rs_dx2",
-      "rs_lx2"
+      "rs_dx3",
+      "rs_lx2",
+      "rs_lx3"
     ],
     "validation": {
       "checksum": [

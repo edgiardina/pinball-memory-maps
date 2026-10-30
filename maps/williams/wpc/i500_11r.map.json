@@ -2,7 +2,8 @@
   "_notes": [
     "Compiled by Tom Collins using template-wpc.json.",
     "WPC 50026, SYS 3.50 REV 1.1",
-    "2025-07-07 Tom Collins added automated audits"
+    "2025-07-07 Tom Collins added automated audits",
+    "Feature Adjustments on i500_10r: 21 Pit Stop Time has the minimum 15."
   ],
   "_fileformat": 0.9,
   "_metadata": {
