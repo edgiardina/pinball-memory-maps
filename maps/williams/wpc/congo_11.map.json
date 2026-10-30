@@ -1624,26 +1624,6 @@
           "Yes"
         ]
       },
-      "23": {
-        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
-        "label": "Diamd Champ Cred.",
-        "start": 7281,
-        "length": 2,
-        "encoding": "int",
-        "min": 0,
-        "max": 3,
-        "default": 1
-      },
-      "24": {
-        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
-        "label": "Def. Diamd Champ",
-        "start": 7283,
-        "length": 2,
-        "encoding": "int",
-        "min": 1,
-        "max": 200,
-        "default": 100
-      },
       "25": {
         "_notes": [
           "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",

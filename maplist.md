@@ -254,7 +254,7 @@
 * [Creature from the Black Lagoon (L-2)][708c3] _cftbl_l2_
 * [Creature from the Black Lagoon (L-3)][97884] _cftbl_l3_
 * [Creature from the Black Lagoon (L-4)][97884] _cftbl_l4_
-* [Creature from the Black Lagoon (L-4C Competition + LED Ghost MOD)][97884] _cftbl_l4c_
+* [Creature from the Black Lagoon (L-4C Competition + LED Ghost MOD)][d283a] _cftbl_l4c_
 * [Creature from the Black Lagoon (P-3 Prototype, SP-1)][935f1] _cftbl_p3_
 * [Cue Ball Wizard][f9adc] _cueball_
 * [Cue Ball Wizard (older display rev.)][f9adc] _cueball1_
@@ -280,7 +280,7 @@
 * [Demolition Man (LA-1)][3b5ca] _dm_la1_
 * [Demolition Man (LX-3)][184c0] _dm_lx3_
 * [Demolition Man (LX-4)][184c0] _dm_lx4_
-* [Demolition Man (LX-4C Competition + LED Ghost MOD)][184c0] _dm_lx4c_
+* [Demolition Man (LX-4C Competition + LED Ghost MOD)][5554f] _dm_lx4c_
 * [Demolition Man (PA-2 Prototype)][6aeb4] _dm_pa2_
 * [Demolition Man (PA-3 LED Ghost Fix)][6aeb4] _dm_pa3_
 * [Demolition Man (PX-5 Prototype)][6aeb4] _dm_px5_
@@ -678,7 +678,7 @@
 * [Junk Yard (0.3 Prototype)][748d8] _jy_03_
 * [Junk Yard (1.1)][bfc26] _jy_11_
 * [Junk Yard (1.2)][bfc26] _jy_12_
-* [Junk Yard (1.2C Competition MOD)][bfc26] _jy_12c_
+* [Junk Yard (1.2C Competition MOD)][7a87a] _jy_12c_
 * [Jurassic Park (3.05)][3ff03] _jupk_305_
 * [Jurassic Park (3.07)][3ff03] _jupk_307_
 * [Jurassic Park (5.01 German)][5fa99] _jupk_g51_
@@ -1020,7 +1020,7 @@
 * [Red and Ted's Road Show (DX-4 LED Ghost Fix)][0a691] _rs_dx4_
 * [Red and Ted's Road Show (DX-5 LED Ghost Fix)][0a691] _rs_dx5_
 * [Red and Ted's Road Show (L-6)][e8803] _rs_l6_
-* [Red and Ted's Road Show (L-6C Competition MOD)][e8803] _rs_l6c_
+* [Red and Ted's Road Show (L-6C Competition MOD)][60949] _rs_l6c_
 * [Red and Ted's Road Show (LA-4)][0a691] _rs_la4_
 * [Red and Ted's Road Show (LA-5)][0a691] _rs_la5_
 * [Red and Ted's Road Show (LX-2)][ed6d6] _rs_lx2_
@@ -1418,7 +1418,7 @@
 * [Theatre of Magic (1.2X)][65fa1] _tom_12_
 * [Theatre of Magic (1.3 French)][65fa1] _tom_13f_
 * [Theatre of Magic (1.3X)][65fa1] _tom_13_
-* [Theatre of Magic (1.3XC Competition MOD)][65fa1] _tom_13c_
+* [Theatre of Magic (1.3XC Competition MOD)][e435a] _tom_13c_
 * [Theatre of Magic (1.4H Coin Play)][65fa1] _tom_14hb_
 * [Theatre of Magic (1.4H)][65fa1] _tom_14h_
 * [Theatre of Magic (2.0 Competition MOD)][65fa1] _tom_20_
@@ -1723,6 +1723,7 @@
 [54760]: maps/williams/system11/rollr_l2.map.json
 [54f4a]: maps/stern/sam/trn_174h.map.json
 [552ac]: maps/williams/system11/taxi_l4.map.json
+[5554f]: maps/williams/wpc/dm_lx4c.map.json
 [560e6]: maps/dataeast/version3/gnr_300.map.json
 [561af]: maps/bally/as-2518-35/system-rom-30-freeplay.map.json
 [56f3f]: maps/williams/wpc/sc_18.map.json
@@ -1742,6 +1743,7 @@
 [5f1db]: maps/williams/wpc/jm_12r.map.json
 [5fa99]: maps/dataeast/version3/jupk_501.map.json
 [60532]: maps/williams/wpc/hd_l3.map.json
+[60949]: maps/williams/wpc/rs_l6c.map.json
 [61982]: maps/dataeast/version3b/baywatch.map.json
 [62631]: maps/williams/wpc/dm_h6.map.json
 [64073]: maps/gottlieb/system3/hoops.map.json
@@ -1782,6 +1784,7 @@
 [795ff]: maps/williams/wpc/drac_l1.map.json
 [797e4]: maps/taito/vortex.map.json
 [7a00b]: maps/stern/sam/st_162.map.json
+[7a87a]: maps/williams/wpc/jy_12c.map.json
 [7a8a4]: maps/williams/wpc/cc_13.map.json
 [7ab94]: maps/williams/wpc/gw_pc.map.json
 [7abc6]: maps/williams/wpc/congo_21.map.json
@@ -1945,6 +1948,7 @@
 [d11a2]: maps/williams/wpc/jd_l1.map.json
 [d1254]: maps/bally/as-2518-35/system-rom-35-7digit.map.json
 [d13e8]: maps/williams/system11/hs_l4.map.json
+[d283a]: maps/williams/wpc/cftbl_l4c.map.json
 [d4493]: maps/williams/system11/bguns_l8.map.json
 [d4a97]: maps/williams/wpc/mm_10.map.json
 [d4d1a]: maps/dataeast/version3/tftc_400.map.json
@@ -1976,6 +1980,7 @@
 [e296b]: maps/williams/wpc/ss_14.map.json
 [e2a4d]: maps/williams/wpc/gi_l8.map.json
 [e40df]: maps/williams/wpc/t2_l3.map.json
+[e435a]: maps/williams/wpc/tom_13c.map.json
 [e4858]: maps/dataeast/version3/simp_a27.map.json
 [e4dd1]: maps/williams/wpc/tz_94h.map.json
 [e5cbd]: maps/williams/wpc/fs_lx4.map.json

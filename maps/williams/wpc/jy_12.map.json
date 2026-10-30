@@ -3,8 +3,7 @@
     "Compiled by Tom Collins using template-wpc.json.",
     "WPC 50052, SYS 3.67 REV 1.2",
     "2025-07-07 Tom Collins added automated audits",
-    "Standard Adjustments on jy_11: 21 Language has the values English, Deutsch, Francais, Espanol.",
-    "Standard Adjustments on jy_12c: 28 Min. Vol. Override has the factory value Yes."
+    "Standard Adjustments on jy_11: 21 Language has the values English, Deutsch, Francais, Espanol."
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -14,8 +13,7 @@
     "platform": "williams-wpc-12K",
     "roms": [
       "jy_11",
-      "jy_12",
-      "jy_12c"
+      "jy_12"
     ],
     "validation": {
       "checksum": [

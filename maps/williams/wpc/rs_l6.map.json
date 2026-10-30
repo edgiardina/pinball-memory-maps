@@ -7,8 +7,7 @@
     "WPC 50024, SYS 3.49 REV 0.7 (rs_l6c)",
     "WPC 50024, SYS 3.49 REV 7.0 (rs_70)",
     "2025-07-07 Tom Collins added automated audits",
-    "unknown location for audit 'B.4 30 BLAST FOR E.B.', single-byte value",
-    "Standard Adjustments on rs_l6c: 28 Min. Vol. Override has the factory value Yes."
+    "unknown location for audit 'B.4 30 BLAST FOR E.B.', single-byte value"
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -18,8 +17,7 @@
     "platform": "williams-wpc-12K",
     "roms": [
       "rs_70",
-      "rs_l6",
-      "rs_l6c"
+      "rs_l6"
     ],
     "validation": {
       "checksum": [

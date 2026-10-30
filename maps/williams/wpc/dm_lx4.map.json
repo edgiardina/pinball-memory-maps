@@ -2,8 +2,7 @@
   "_notes": [
     "Compiled by Tom Collins for initial development/testing purposes.",
     "WPC 50028, SYS 3.21 REV 0.4 (dm_lx4)",
-    "WPC 50028, SYS 3.21 REV 0.5 (dm_lx4c)",
-    "Standard Adjustments on dm_lx4c: 21 Language has the values English. 28 Min. Vol. Override has the factory value YES."
+    "WPC 50028, SYS 3.21 REV 0.5 (dm_lx4c)"
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -15,8 +14,7 @@
       "dm_dx3",
       "dm_dx4",
       "dm_lx3",
-      "dm_lx4",
-      "dm_lx4c"
+      "dm_lx4"
     ],
     "validation": {
       "checksum": [

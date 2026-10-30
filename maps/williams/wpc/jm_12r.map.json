@@ -905,16 +905,6 @@
         ],
         "default": 0
       },
-      "19": {
-        "_notes": "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
-        "label": "Cyberpunk Credit",
-        "start": 7145,
-        "length": 2,
-        "encoding": "int",
-        "min": 0,
-        "max": 3,
-        "default": 0
-      },
       "20": {
         "_notes": [
           "Not shown in the game menu: label, address, range and values come from the ROM adjustment table only.",
