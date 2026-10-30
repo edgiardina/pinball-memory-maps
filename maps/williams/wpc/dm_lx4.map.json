@@ -839,10 +839,10 @@
         "start": 7132,
         "encoding": "enum",
         "values": [
-          "YES",
-          "NO"
+          "NO",
+          "YES"
         ],
-        "default": 1
+        "default": 0
       },
       "17": {
         "label": "Cred. Champ. Demo",

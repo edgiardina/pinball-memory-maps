@@ -10,7 +10,7 @@
     "unknown location for audit 'B.4 30 BLAST FOR E.B.', single-byte value",
     "Split from rs_l6.map.json: the Feature Adjustments of rs_l6c are different from rs_l6 (pinball-memory-maps#202).",
     "The Standard Adjustments item 28 of rs_l6c is different from rs_l6: other factory values, ranges or languages (pinball-memory-maps#202).",
-    "A.2 27 Route Of Cities is not in this map. A change to it wrote nothing in the Adjustments block, so its address is not known."
+    "A.2 27 and 28 are not in the Adjustments block. Their addresses are from Tom Collins (pinball-memory-maps#202). The factory values in NVRAM agree."
   ],
   "_fileformat": 0.9,
   "_metadata": {
@@ -1672,6 +1672,25 @@
           "Off",
           "On"
         ]
+      },
+      "27": {
+        "label": "Route Of Cities",
+        "start": 8033,
+        "encoding": "enum",
+        "default": 0,
+        "values": [
+          "East West",
+          "Any Route"
+        ]
+      },
+      "28": {
+        "label": "W.Coast At City",
+        "start": 8035,
+        "length": 1,
+        "encoding": "int",
+        "min": 10,
+        "max": 16,
+        "default": 10
       }
     }
   },
